@@ -12,15 +12,15 @@ papers:
 #    doc-url:
   - layout: paper
     paper-type: inproceedings
-    year: 2021
+    year: 2022
     title: "Controlling Directions Orthogonal to a Classifier"
     authors: <b>Yilun Xu</b>, Hao He, Tianxiao Shen, Tommi Jaakkola
-    booktitle: "submission"
+    booktitle: "ICLR 2022"
     code-url:
-    pdf-url:
+    pdf-url: https://openreview.net/pdf?id=DIjCrlsu6Z
     venue: conference
     selected: yes
-    doc-url:
+    doc-url: https://openreview.net/forum?id=DIjCrlsu6Z&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2022%2FConference%2FAuthors%23your-submissions)
   - layout: paper
     paper-type: inproceedings
     year: 2021
