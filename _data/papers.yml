@@ -15,7 +15,7 @@ papers:
     year: 2022
     title: "Controlling Directions Orthogonal to a Classifier"
     authors: <b>Yilun Xu</b>, Hao He, Tianxiao Shen, Tommi Jaakkola
-    booktitle: "ICLR 2022"
+    booktitle: "ICLR 2022 (Spotlight)"
     code-url: https://github.com/Newbeeer/orthogonal_classifier
     pdf-url: https://openreview.net/pdf?id=DIjCrlsu6Z
     venue: conference
