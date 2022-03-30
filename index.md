@@ -25,7 +25,7 @@ My research interests are machine learning.
 
 
 
-# Experience
+# Education
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
