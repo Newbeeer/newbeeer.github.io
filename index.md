@@ -69,6 +69,8 @@ I have been playing PUBG (mobile), LoL a lot. Find me out!
 
 # Service 
 
-Reviewer: NeurIPS 2020, 2021; ICLR 2021, 2022; ICML 2021, 2022
+Conference Reviewer: NeurIPS 2020, 2021, 2022; ICLR 2021, 2022; ICML 2021, 2022
+
+Workshop Reviewer: ICML-AI4Science 2022
 
 PC member: ICLR 2022 PAIR2Struct Workshop
