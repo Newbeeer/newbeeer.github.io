@@ -35,7 +35,7 @@ My research interests are machine learning.
     <h3>&nbsp;&nbsp;&nbsp; Sept. 2021* - : Massachusetts Institute of Technology, Boston</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhD student</p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: Tommi Jaakkola</p>
-    <p>     (remote during Sept 2020 - Aug 2020)</p>
+    <p>     *: remote during Sept 2020 - Aug 2020</p>
   </div>
 </div>
 
