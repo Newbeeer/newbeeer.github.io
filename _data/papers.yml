@@ -14,6 +14,17 @@ papers:
     paper-type: inproceedings
     year: 2022
     title: "Controlling Directions Orthogonal to a Classifier"
+    authors: <b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola
+    booktitle: "Neurips 2022"
+    code-url:
+    pdf-url:
+    venue: conference
+    selected: yes
+    doc-url:)
+  - layout: paper
+    paper-type: inproceedings
+    year: 2022
+    title: "Controlling Directions Orthogonal to a Classifier"
     authors: <b>Yilun Xu</b>, Hao He, Tianxiao Shen, Tommi Jaakkola
     booktitle: "ICLR 2022 (Spotlight)"
     code-url: https://github.com/Newbeeer/orthogonal_classifier
