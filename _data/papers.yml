@@ -20,7 +20,7 @@ papers:
     pdf-url:
     venue: conference
     selected: yes
-    doc-url:)
+    doc-url: 
   - layout: paper
     paper-type: inproceedings
     year: 2022
