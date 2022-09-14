@@ -13,14 +13,14 @@ papers:
   - layout: paper
     paper-type: inproceedings
     year: 2022
-    title: "Controlling Directions Orthogonal to a Classifier"
+    title: "Poisson Field Generative Models "
     authors: <b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola
     booktitle: "NeurIPS 2022"
     code-url:
     pdf-url:
     venue: conference
     selected: yes
-    doc-url: 
+    doc-url:
   - layout: paper
     paper-type: inproceedings
     year: 2022
