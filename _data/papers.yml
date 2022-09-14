@@ -15,7 +15,7 @@ papers:
     year: 2022
     title: "Controlling Directions Orthogonal to a Classifier"
     authors: <b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola
-    booktitle: "Neurips 2022"
+    booktitle: "NeurIPS 2022"
     code-url:
     pdf-url:
     venue: conference
