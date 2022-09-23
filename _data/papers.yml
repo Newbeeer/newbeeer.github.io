@@ -13,14 +13,14 @@ papers:
   - layout: paper
     paper-type: inproceedings
     year: 2022
-    title: "Poisson Field Generative Models "
+    title: "Poisson Flow Generative Models "
     authors: <b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola
     booktitle: "NeurIPS 2022"
     code-url: https://github.com/Newbeeer/Poisson_flow
-    pdf-url:
+    pdf-url: https://arxiv.org/abs/2209.11178
     venue: conference
     selected: yes
-    doc-url:
+    doc-url: https://arxiv.org/abs/2209.11178
   - layout: paper
     paper-type: inproceedings
     year: 2022
