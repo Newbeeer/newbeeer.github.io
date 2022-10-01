@@ -5,8 +5,8 @@
   {% when "inproceedings" %}
     In <i>{{ include.paper.booktitle }}</i>.<br/>
     <a href="{{ include.paper.pdf-url }}" target="_blank">[PDF]</a>,<a href="{{ include.paper.code-url }}">[Code]</a>
-    {% if include.paper.note %}
-        <a href="{{ include.paper.code-url }}">[News Coverage]</a>
+    {% if include.paper.news %}
+        <a href="{{ include.paper.news-url }}">[News Coverage]</a>
     {% endif %}
   {% when "article" %}
     In <i>{{ include.paper.journal }}</i>,
@@ -17,7 +17,7 @@
     Dissertation, {{ include.paper.institution }}.
 {% endcase %}
 <!--{{ include.paper.year }}. -->
-{% if include.paper.note %} 
-  {{ include.paper.note }} 
-{% endif %}
+{#{% if include.paper.note %} #}
+{#  {{ include.paper.note }} #}
+{#{% endif %}#}
 
