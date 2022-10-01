@@ -21,6 +21,7 @@ papers:
     venue: conference
     selected: yes
     doc-url: https://arxiv.org/abs/2209.11178
+    note: News converage
   - layout: paper
     paper-type: inproceedings
     year: 2022
