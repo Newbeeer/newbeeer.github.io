@@ -78,6 +78,8 @@ papers:
     venue: conference
     selected: yes
     doc-url: https://openreview.net/forum?id=r1eBeyHFDH&noteId=r1eBeyHFDH
+    video: Video
+    video-url: https://papertalk.org/papertalks/4027
   - layout: paper
     paper-type: inproceedings
     year: 2020

@@ -8,6 +8,9 @@
     {% if include.paper.news %}
         <a href="{{ include.paper.news-url }}">[News Coverage]</a>
     {% endif %}
+    {% if include.paper.video %}
+        <a href="{{ include.paper.video-url }}">[News Coverage]</a>
+    {% endif %}
   {% when "article" %}
     In <i>{{ include.paper.journal }}</i>,
       {% if include.paper.volume %}{{ include.paper.volume }}{% endif %}{% if include.paper.number %}({{ include.paper.number }}){% endif %}
