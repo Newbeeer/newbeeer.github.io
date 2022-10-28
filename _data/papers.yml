@@ -52,7 +52,6 @@ papers:
     title: "Can Subnetwork Structure Be the Key to Out-of-Distribution Generalization?"
     authors: Dinghuai Zhang, Kartik Ahuja, <b>Yilun Xu</b>, Yisen Wang, Aaron Courville
     booktitle: "ICML 2021 (Long talk)"
-    code-url: yilun-xu.com
     pdf-url: https://arxiv.org/abs/2106.02890
     venue: conference
     selected: yes
@@ -74,7 +73,7 @@ papers:
     title: "A Theory of Usable Information under Computational Constraints"
     authors: <b>Yilun Xu</b>, Shengjia Zhao, Jiaming Song, Russell Stewart, Stefano Ermon
     booktitle: "ICLR 2020 (Oral)"
-    code-url:
+    code-url: https://github.com/Newbeeer/V-information
     pdf-url: https://openreview.net/pdf?id=r1eBeyHFDH
     venue: conference
     selected: yes
@@ -88,7 +87,7 @@ papers:
     authors: Xinwei Sun*, <b>Yilun Xu*</b>, Peng Cao, Yuqing Kong, Lingjing Hu, Shanghang Zhang, Yizhou Wang
     booktitle: "ECCV 2020 (Oral)"
     doc-url: https://openreview.net/pdf?id=BJg9DoR9t7
-    code-url: https://github.com/Newbeeer/Max-MIG
+    code-url: https://github.com/Newbeeer/Semi-supervised-Multi-Modalities-Learning
     pdf-url: https://openreview.net/pdf?id=BJg9DoR9t7
     venue: conference
     selected: yes
