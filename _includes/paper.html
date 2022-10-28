@@ -6,7 +6,8 @@
     In <i>{{ include.paper.booktitle }}</i>.<br/>
     <a href="{{ include.paper.pdf-url }}" target="_blank">[PDF]</a>,<a href="{{ include.paper.code-url }}">[Code]</a>
     {% if include.paper.news %}
-        <br/>News Coverage: {% if include.paper.marktechpost-url %}<a href="{{ include.paper.marktechpost-url }}">[MarkTechPost]</a>{% endif %}
+        <br/>News Coverage: {% if include.paper.marktechpost-url %}<a href="{{ include.paper.marktechpost-url }}">[MarkTechPost]</a>{% endif %},
+        {% if include.paper.assembly-url %}<a href="{{ include.paper.assembly-url }}">[AssemblyAI Blog]</a>{% endif %}
     {% endif %}
     {% if include.paper.video %}
         , <a href="{{ include.paper.video-url }}">[Video]</a>
