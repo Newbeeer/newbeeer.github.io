@@ -6,9 +6,8 @@ menu:   true
 order:  1
 ---
 
-> _I would have written a shorter letter, but I did not have the time._
->
-> ---Blaise Pascal
+> _Set your course by the stars, not by the lights of every passing ship._
+
 
 <ul>
 {% for paper in site.data.papers.papers %}
