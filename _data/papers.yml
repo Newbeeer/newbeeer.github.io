@@ -13,6 +13,17 @@ papers:
   - layout: paper
     paper-type: inproceedings
     year: 2022
+    title: "Stable Target Field for Reduced Variance Score Estimation"
+    authors: <b>Yilun Xu*</b>, Shangyuan Tong*, Tommi Jaakkola
+    booktitle: "ICLR 2023"
+    code-url:
+    pdf-url:
+    venue: conference
+    selected: yes
+    doc-url:
+  - layout: paper
+    paper-type: inproceedings
+    year: 2022
     title: "Poisson Flow Generative Models "
     authors: <b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola
     booktitle: "NeurIPS 2022 (Spotlight)"
