@@ -17,10 +17,10 @@ papers:
     authors: <b>Yilun Xu*</b>, Shangyuan Tong*, Tommi Jaakkola
     booktitle: "ICLR 2023"
     code-url:
-    pdf-url:
+    pdf-url: https://openreview:net/forum?id=WmIwYTd0YTF
     venue: conference
     selected: yes
-    doc-url:
+    doc-url: https://openreview.net/forum?id=WmIwYTd0YTF
   - layout: paper
     paper-type: inproceedings
     year: 2022
