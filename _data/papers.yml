@@ -26,7 +26,7 @@ papers:
     year: 2022
     title: "Poisson Flow Generative Models "
     authors: <b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola
-    booktitle: "NeurIPS 2022 (Spotlight)"
+    booktitle: "Neural Information Processing Systems (NeurIPS) 2022 (Spotlight)"
     code-url: https://github.com/Newbeeer/Poisson_flow
     pdf-url: https://arxiv.org/abs/2209.11178
     venue: conference
@@ -108,7 +108,7 @@ papers:
     year: 2019
     title: "L_{DMI} : A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise"
     authors: <b>Yilun Xu*</b>, Peng Cao*, Yuqing Kong, Yizhou Wang
-    booktitle: "NeurIPS 2019"
+    booktitle: "Neural Information Processing Systems (NeurIPS) 2019"
     doc-url: https://neurips.cc/Conferences/2019/Schedule?showEvent=13738
     venue: conference
     code-url: https://github.com/Newbeeer/L_DMI
