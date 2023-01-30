@@ -76,5 +76,3 @@ Workshop Reviewer: ICML-AI4Science 2022
 
 PC member: ICLR 2022 PAIR2Struct Workshop
 
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/Newbeeer/Poisson_flow" data-size="large" data-show-count="true" aria-label="Star Newbeeer/Poisson_flow on GitHub">Star</a>

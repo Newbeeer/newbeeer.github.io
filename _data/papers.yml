@@ -27,7 +27,7 @@ papers:
     title: "Poisson Flow Generative Models "
     authors: <b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola
     booktitle: Neural Information Processing Systems (NeurIPS), 2022. <span style="color:red">(Spotlight)</span>
-    code-url: https://github.com/Newbeeer/Poisson_flow
+    code-url: https://github.com/Newbeeer/Poisson_flow , <a class="github-button" href="https://github.com/Newbeeer/Poisson_flow" data-size="large" data-show-count="true" aria-label="Star Newbeeer/Poisson_flow on GitHub">Star</a>
     pdf-url: https://arxiv.org/abs/2209.11178
     venue: conference
     selected: yes
