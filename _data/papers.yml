@@ -12,11 +12,11 @@ papers:
 #    doc-url:
   - layout: paper
     paper-type: inproceedings
-    year: 2022
+    year: 2023
     title: "Stable Target Field for Reduced Variance Score Estimation"
     authors: <b>Yilun Xu*</b>, Shangyuan Tong*, Tommi Jaakkola
     booktitle: "ICLR 2023"
-    code-url:
+    code-url: https://github.com/Newbeeer/stf
     pdf-url: https://openreview:net/forum?id=WmIwYTd0YTF
     venue: conference
     selected: yes
