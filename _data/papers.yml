@@ -47,6 +47,7 @@ papers:
     venue: conference
     selected: yes
     doc-url: https://openreview.net/forum?id=DIjCrlsu6Z&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2022%2FConference%2FAuthors%23your-submissions)
+    github: <a class="github-button" href="https://github.com/Newbeeer/orthogonal_classifier" data-size="large" data-show-count="true" aria-label="Star Newbeeer/orthogonal_classifier on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
     year: 2021
@@ -114,6 +115,7 @@ papers:
     venue: conference
     code-url: https://github.com/Newbeeer/L_DMI
     pdf-url: newbeeer.github.io/assets/files/dmi.pdf
+    github: <a class="github-button" href="https://github.com/Newbeeer/L_DMI" data-size="large" data-show-count="true" aria-label="Star Newbeeer/L_DMI on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
     year: 2010
