@@ -21,6 +21,7 @@ papers:
     venue: conference
     selected: yes
     doc-url: https://openreview.net/forum?id=WmIwYTd0YTF
+    github: <a class="github-button" href="https://github.com/Newbeeer/stf" data-size="large" data-show-count="true" aria-label="Star Newbeeer/stf on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
     year: 2022
@@ -80,6 +81,7 @@ papers:
     venue: conference
     selected: yes
     doc-url: https://openreview.net/forum?id=TSRTzJnuEBS
+    github: <a class="github-button" href="https://github.com/Newbeeer/Anytime-Auto-Regressive-Model" data-size="large" data-show-count="true" aria-label="Star Newbeeer/Anytime-Auto-Regressive-Model on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
     year: 2020
@@ -127,3 +129,4 @@ papers:
     pdf-url: https://openreview.net/pdf?id=BJg9DoR9t7
     venue: conference
     selected: yes
+    github: <a class="github-button" href="https://github.com/Newbeeer/Max-MIG" data-size="large" data-show-count="true" aria-label="Star Newbeeer/Max-MIG on GitHub">Star</a>
