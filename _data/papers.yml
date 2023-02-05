@@ -22,6 +22,8 @@ papers:
     selected: yes
     doc-url: https://openreview.net/forum?id=WmIwYTd0YTF
     github: <a class="github-button" href="https://github.com/Newbeeer/stf" data-size="large" data-show-count="true" aria-label="Star Newbeeer/stf on GitHub">Star</a>
+    news: News converage
+    marktechpost-url: https://www.marktechpost.com/2023/02/04/a-new-ai-research-from-mit-reduces-variance-in-denoising-score-matching-improving-image-quality-stability-and-training-speed-in-diffusion-models/
   - layout: paper
     paper-type: inproceedings
     year: 2022
