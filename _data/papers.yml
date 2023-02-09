@@ -13,6 +13,18 @@ papers:
   - layout: paper
     paper-type: inproceedings
     year: 2023
+    title: "PFGM++: Unlocking the Potential of Physics-Inspired Generative Models"
+    authors: <b>Yilun Xu</b>, Ziming Liu, Yonglong Tian, Shangyuan Tong, Max Tegmark, Tommi Jaakkola
+    booktitle: "preprint"
+    code-url: https://github.com/Newbeeer/pfgmpp
+    pdf-url: https://arxiv.org/abs/2302.04265
+    venue: conference
+    selected: yes
+    doc-url: https://arxiv.org/abs/2302.04265
+    github: <a class="github-button" href="https://github.com/Newbeeer/pfgmpp" data-size="large" data-show-count="true" aria-label="Star Newbeeer/pfgmmpp on GitHub">Star</a>
+  - layout: paper
+    paper-type: inproceedings
+    year: 2023
     title: "Stable Target Field for Reduced Variance Score Estimation in Diffusion Models"
     authors: <b>Yilun Xu*</b>, Shangyuan Tong*, Tommi Jaakkola
     booktitle: "International Conference on Learning Representations (ICLR), 2023"
