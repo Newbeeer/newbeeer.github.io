@@ -22,6 +22,7 @@ papers:
     selected: yes
     doc-url: https://arxiv.org/abs/2302.04265
     github: <a class="github-button" href="https://github.com/Newbeeer/pfgmpp" data-size="large" data-show-count="true" aria-label="Star Newbeeer/pfgmmpp on GitHub">Star</a>
+    pwc: <a href="https://paperswithcode.com/sota/image-generation-on-cifar-10?p=pfgm-unlocking-the-potential-of-physics"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pfgm-unlocking-the-potential-of-physics/image-generation-on-cifar-10" alt="PWC"></a>
   - layout: paper
     paper-type: inproceedings
     year: 2023

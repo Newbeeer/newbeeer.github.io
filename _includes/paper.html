@@ -16,6 +16,9 @@
     {% if include.paper.github %}
         <br/> {{ include.paper.github }}
     {% endif %}
+    {% if include.paper.pwc %}
+        <br/> {{ include.paper.pwc }}
+    {% endif %}
   {% when "article" %}
     In <i>{{ include.paper.journal }}</i>,
       {% if include.paper.volume %}{{ include.paper.volume }}{% endif %}{% if include.paper.number %}({{ include.paper.number }}){% endif %}
