@@ -51,6 +51,9 @@ papers:
     news: News converage
     marktechpost-url: https://www.marktechpost.com/2022/10/01/latest-machine-learning-research-at-mit-presents-a-novel-poisson-flow-generative-model-pfgm-that-maps-any-data-distribution-into-a-uniform-distribution-on-a-high-dimensional-hemisphere/?fbclid=IwAR2AN6mCkpbzLtIXat85Rkyc-DXLx9HEDIFZJzLx1Aeo2OwwbrneAn1wUJw
     assembly-url: https://www.assemblyai.com/blog/an-introduction-to-poisson-flow-generative-models/
+    synced-url: https://mp.weixin.qq.com/s/W303CT5usgNJvNK3g41Qcg
+    paperweekly-url: https://mp.weixin.qq.com/s/mt7zYCcmAI1xoxIx52g0tg
+    qbitai-url: https://mp.weixin.qq.com/s/U_ygD4KVUdv07jMZAIC35A
     github: <a class="github-button" href="https://github.com/Newbeeer/Poisson_flow" data-size="large" data-show-count="true" aria-label="Star Newbeeer/Poisson_flow on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
