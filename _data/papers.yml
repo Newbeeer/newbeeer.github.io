@@ -113,6 +113,8 @@ papers:
     doc-url: https://openreview.net/forum?id=r1eBeyHFDH&noteId=r1eBeyHFDH
     video: Video
     video-url: https://papertalk.org/papertalks/4027
+    news: News converage
+    synced-url: https://www.jiqizhixin.com/articles/2020-04-16-5
   - layout: paper
     paper-type: inproceedings
     year: 2020
@@ -136,6 +138,9 @@ papers:
     code-url: https://github.com/Newbeeer/L_DMI
     pdf-url: newbeeer.github.io/assets/files/dmi.pdf
     github: <a class="github-button" href="https://github.com/Newbeeer/L_DMI" data-size="large" data-show-count="true" aria-label="Star Newbeeer/L_DMI on GitHub">Star</a>
+    news: News converage
+    synced-url: https://www.jiqizhixin.com/articles/2019-11-21-7
+    cfcs-url: https://mp.weixin.qq.com/s/u9u_rS0fsZ_kGXhZR09Adg
   - layout: paper
     paper-type: inproceedings
     year: 2010
@@ -148,3 +153,5 @@ papers:
     venue: conference
     selected: yes
     github: <a class="github-button" href="https://github.com/Newbeeer/Max-MIG" data-size="large" data-show-count="true" aria-label="Star Newbeeer/Max-MIG on GitHub">Star</a>
+    news: News converage
+    cfcs-url: https://mp.weixin.qq.com/s/YFkj5oOwZHSzlfDu-try-g
