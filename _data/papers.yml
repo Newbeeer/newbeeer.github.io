@@ -26,14 +26,24 @@ papers:
   - layout: paper
     paper-type: inproceedings
     year: 2023
+    title: "GenPhys: From Physical Processes to Generative Models"
+    authors: Ziming Liu, Di Luo, <b>Yilun Xu</b>, Tommi Jaakkola, Max Tegmark
+    booktitle: "preprint"
+    pdf-url: https://arxiv.org/abs/2304.02637
+    venue: conference
+    selected: yes
+    doc-url: https://arxiv.org/abs/2304.02637
+  - layout: paper
+    paper-type: inproceedings
+    year: 2023
     title: "Stable Target Field for Reduced Variance Score Estimation in Diffusion Models"
     authors: <b>Yilun Xu*</b>, Shangyuan Tong*, Tommi Jaakkola
     booktitle: "International Conference on Learning Representations (ICLR), 2023"
     code-url: https://github.com/Newbeeer/stf
-    pdf-url: https://openreview:net/forum?id=WmIwYTd0YTF
+    pdf-url: https://arxiv.org/abs/2302.00670
     venue: conference
     selected: yes
-    doc-url: https://openreview.net/forum?id=WmIwYTd0YTF
+    doc-url: https://arxiv.org/abs/2302.00670
     github: <a class="github-button" href="https://github.com/Newbeeer/stf" data-size="large" data-show-count="true" aria-label="Star Newbeeer/stf on GitHub">Star</a>
     news: News converage
     marktechpost-url: https://www.marktechpost.com/2023/02/04/a-new-ai-research-from-mit-reduces-variance-in-denoising-score-matching-improving-image-quality-stability-and-training-speed-in-diffusion-models/
