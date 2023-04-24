@@ -15,7 +15,7 @@ papers:
     year: 2023
     title: "PFGM++: Unlocking the Potential of Physics-Inspired Generative Models"
     authors: <b>Yilun Xu</b>, Ziming Liu, Yonglong Tian, Shangyuan Tong, Max Tegmark, Tommi Jaakkola
-    booktitle: "preprint"
+    booktitle: "International Conference on Machine Learning (ICML), 2023. "
     code-url: https://github.com/Newbeeer/pfgmpp
     pdf-url: https://arxiv.org/abs/2302.04265
     venue: conference
