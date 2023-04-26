@@ -4,7 +4,7 @@ title: About me
 cover: false
 ---
 
-Hi, I am Yilun Xu. I am a second year PhD student in MIT, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, Peking University. I had the privilege of working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) in PKU, and [Stefano Ermon](https://cs.stanford.edu/~ermon/) in Stanford.
+Hi, I am Yilun Xu. I am a third year PhD student in MIT, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, Peking University. I had the privilege of working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) in PKU, and [Stefano Ermon](https://cs.stanford.edu/~ermon/) in Stanford.
  
 My research interests are machine learning.
 
@@ -35,7 +35,7 @@ My research interests are machine learning.
     <h3>&nbsp;&nbsp;&nbsp; Sept. 2021* - : Massachusetts Institute of Technology, Boston</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhD student</p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp; Advisor: Tommi Jaakkola</p>
-    <p>      &nbsp;&nbsp;&nbsp;&nbsp; *: remote during Sept 2020 - Aug 2020</p>
+    <p>      &nbsp;&nbsp;&nbsp;&nbsp; *: remote during Sept 2020 - Aug 2021</p>
   </div>
 </div>
 
