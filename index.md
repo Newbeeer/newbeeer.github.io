@@ -115,7 +115,7 @@ Nov 2022
 
 - **AI TIME**, June 2022 
 
-    *Controlling Directions Orthogonal to a Classifier*, 
+    *Controlling Directions Orthogonal to a Classifier*
 
 - **AI TIME**, June 2021
 

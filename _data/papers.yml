@@ -23,6 +23,8 @@ papers:
     doc-url: https://arxiv.org/abs/2302.04265
     github: <a class="github-button" href="https://github.com/Newbeeer/pfgmpp" data-size="large" data-show-count="true" aria-label="Star Newbeeer/pfgmmpp on GitHub">Star</a>
     pwc: <a href="https://paperswithcode.com/sota/image-generation-on-cifar-10?p=pfgm-unlocking-the-potential-of-physics"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pfgm-unlocking-the-potential-of-physics/image-generation-on-cifar-10" alt="PWC"></a>
+    news: News coverage
+    jiangmen-url: https://mp.weixin.qq.com/s/9RTK4qFzEIzLhoixGUR0QQ
   - layout: paper
     paper-type: inproceedings
     year: 2023
@@ -45,7 +47,7 @@ papers:
     selected: yes
     doc-url: https://arxiv.org/abs/2302.00670
     github: <a class="github-button" href="https://github.com/Newbeeer/stf" data-size="large" data-show-count="true" aria-label="Star Newbeeer/stf on GitHub">Star</a>
-    news: News converage
+    news: News coverage
     marktechpost-url: https://www.marktechpost.com/2023/02/04/a-new-ai-research-from-mit-reduces-variance-in-denoising-score-matching-improving-image-quality-stability-and-training-speed-in-diffusion-models/
   - layout: paper
     paper-type: inproceedings
