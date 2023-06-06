@@ -121,6 +121,4 @@ Workshop Reviewer: ICML-AI4Science 2022
 
 PC member: ICLR 2022 PAIR2Struct Workshop
 
-Teaching Assistant for 6.S052/6.S952: Modeling with Machine learning for CS, MIT, Spring 2023
-- *co-design the problem set and lectures for this new course*
-- *receive an outstanding TA rating of 6.9 out of 7.0*
+Teaching Assistant for 6.S052/6.S952: Modeling with Machine learning for CS, MIT, Spring 2023 (*co-design the problem set and lectures for this new course, and receive an outstanding TA rating of 6.9 out of 7.0*)
