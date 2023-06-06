@@ -62,6 +62,52 @@ My research interests are machine learning.
 </div>
 <br/>
 
+# Talk
+
+**[Swarma Club](https://swarma.org)**, May 2023
+
+*Unlocking the Potential of Physics-Inspired Generative Models*, [[Video (CN)](https://www.bilibili.com/video/BV17g4y1V7wY/?spm_id_from=333.337.search-card.all.click)]
+
+**[TechBeat/Jiangmen Ventures](https://www.techbeat.net)**, April 2023
+
+*Unlocking the Potential of Physics-Inspired Generative Models*, [[Video (CN)](https://www.bilibili.com/video/BV1HV4y167q1/?spm_id_from=333.337.search-card.all.click)]
+
+**[MLTea Talk](https://mlxmit.mit.edu/ml-tea-talks)**, MIT, April 2023
+
+*Unlocking the Potential of Physics-Inspired Generative Models*
+
+**Guest lecturer at 6.S052/6.S952: Modeling with Machine learning for CS, MIT**, April 2023
+
+*Conditional and Controllable Generation*, [[Slide]()]
+
+**Stanford University, hosted by Prof. Mert Pilanci**, Feb 2023
+
+*Unlocking the Potential of Physics-Inspired Generative Models*
+
+**[AssemblyAI](https://www.assemblyai.com) AI Hackathon**,
+Dec 2022
+
+*Poisson Flow Generative Models*
+
+**Princeton University, hosted by Prof. Mengdi Wang**,
+Nov 2022
+
+*Poisson Flow Generative Models (and beyond)*
+
+**[MIT NetMIT Group](http://groups.csail.mit.edu/netmit/wordpress/), hosted by Prof. Dina Katabi**,
+Nov 2022 
+
+*Poisson Flow Generative Models (and beyond)*
+
+
+**AI TIME**, June 2022 
+
+*Controlling Directions Orthogonal to a Classifier*, 
+
+**AI TIME**, June 2021
+
+*Anytime Sampling for Autoregressive Models via Ordered Autoencoding*, [[Video (CN)](https://www.bilibili.com/video/BV1o64y1R7cP/?spm_id_from=333.337.search-card.all.click)]
+
 # Miscellaneous
 
 I am a national second-class table tennis player in China XD.
@@ -76,3 +122,6 @@ Workshop Reviewer: ICML-AI4Science 2022
 
 PC member: ICLR 2022 PAIR2Struct Workshop
 
+Teaching Assistant for 6.S052/6.S952: Modeling with Machine learning for CS, MIT, Spring 2023
+- *co-design the problem set and lectures for this new course*
+- *receiving an outstanding TA rating of 6.9 out of 7.0*
