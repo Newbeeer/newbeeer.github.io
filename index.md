@@ -52,7 +52,7 @@ My research interests are machine learning.
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-    <img src="/assets/img/stanford.png" alt="" width="150" height="150">
+    <img src="/assets/img/stanford.png" alt="" width="182" height="150">
   </div>
   <div>
     <h3>&nbsp;&nbsp;&nbsp;Jun. 2019 - Sept. 2019: Stanford University, Palo Alto</h3>
