@@ -119,7 +119,7 @@ Nov 2022
 
 - **[AI TIME](http://aitime.cn/)**, June 2021
 
-    *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*, [[Video (CN)](https://www.bilibili.com/video/BV1o64y1R7cP/?spm_id_from=333.337.search-card.all.click)]
+    *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*
 
 
 # Service 
