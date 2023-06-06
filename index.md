@@ -99,7 +99,6 @@ Nov 2022
 
     *Poisson Flow Generative Models (and beyond)*
 
-
 - **AI TIME**, June 2022 
 
     *Controlling Directions Orthogonal to a Classifier*, 
