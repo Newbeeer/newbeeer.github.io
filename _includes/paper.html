@@ -5,13 +5,15 @@
     In <i>{{ include.paper.booktitle }}</i><br/>
     <a href="{{ include.paper.pdf-url }}" target="_blank">[PDF]</a>
     {% if include.paper.code-url %},<a href="{{ include.paper.code-url }}">[Code]</a>{% endif %}
-        {% if include.paper.slide-url %},<a href="{{ include.paper.slide-url }}">[Slide]</a>{% endif %}
+    {% if include.paper.slide-url %},<a href="{{ include.paper.slide-url }}">[Slide]</a>{% endif %}
+    {% if include.paper.poster-url %},<a href="{{ include.paper.poster-url }}">[Slide]</a>{% endif %}
     {% if include.paper.video %}
         , <a href="{{ include.paper.video-url }}">[Video]</a>
     {% endif %}
     {% if include.paper.news %}
-        <br/>News Coverage: {% if include.paper.marktechpost-url %}<a href="{{ include.paper.marktechpost-url }}">[MarkTechPost]</a>, {% endif %}
+        <br/>News Coverage:
         {% if include.paper.assembly-url %}<a href="{{ include.paper.assembly-url }}">[AssemblyAI Blog]</a>, {% endif %}
+        {% if include.paper.marktechpost-url %}<a href="{{ include.paper.marktechpost-url }}">[MarkTechPost]</a>, {% endif %}
         {% if include.paper.synced-url %}<a href="{{ include.paper.synced-url }}">[Synced (CN)]</a>, {% endif %}
         {% if include.paper.paperweekly-url %}<a href="{{ include.paper.paperweekly-url }}">[PaperWeekly (CN)]</a>, {% endif %}
         {% if include.paper.qbitai-url %}<a href="{{ include.paper.qbitai-url }}">[QbitAI (CN)]</a>, {% endif %}

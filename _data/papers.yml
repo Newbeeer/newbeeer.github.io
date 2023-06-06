@@ -18,6 +18,7 @@ papers:
     booktitle: "International Conference on Machine Learning (ICML), 2023. "
     code-url: https://github.com/Newbeeer/pfgmpp
     pdf-url: https://arxiv.org/abs/2302.04265
+    slide-url: https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0
     venue: conference
     selected: yes
     doc-url: https://arxiv.org/abs/2302.04265
@@ -47,6 +48,7 @@ papers:
     selected: yes
     doc-url: https://arxiv.org/abs/2302.00670
     slide-url: https://www.dropbox.com/s/3iags01pf935voi/stf.key?dl=0
+    poster-url: https://www.dropbox.com/s/wqccjvoml3qe7wz/stf_poster.pdf?dl=0
     github: <a class="github-button" href="https://github.com/Newbeeer/stf" data-size="large" data-show-count="true" aria-label="Star Newbeeer/stf on GitHub">Star</a>
     news: News coverage
     marktechpost-url: https://www.marktechpost.com/2023/02/04/a-new-ai-research-from-mit-reduces-variance-in-denoising-score-matching-improving-image-quality-stability-and-training-speed-in-diffusion-models/
@@ -58,6 +60,8 @@ papers:
     booktitle: Neural Information Processing Systems (NeurIPS), 2022. <span style="color:red">(Spotlight)</span>
     code-url: https://github.com/Newbeeer/Poisson_flow
     pdf-url: https://arxiv.org/abs/2209.11178
+    slide-url: https://www.dropbox.com/scl/fi/la0jkj31ohynvepd3syyx/pfgm.pptx?dl=0&rlkey=3myamjcqb0aout9mp406j7iol
+    poster-url: https://www.dropbox.com/s/bsor7rtl965fsns/PFGM_poster.png?dl=0
     venue: conference
     selected: yes
     doc-url: https://arxiv.org/abs/2209.11178
@@ -78,6 +82,8 @@ papers:
     pdf-url: https://openreview.net/pdf?id=DIjCrlsu6Z
     venue: conference
     selected: yes
+    poster-url: https://www.dropbox.com/s/pyexp6cdvzemy0e/orthogonal_poster.png?dl=0
+    slide-url: https://www.dropbox.com/scl/fi/moj373pkubkk0wfn631jz/orthogonal_classifier.pptx?dl=0&rlkey=8dhw1ohz3c5ugvbqbsh9fww8m
     doc-url: https://openreview.net/forum?id=DIjCrlsu6Z&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2022%2FConference%2FAuthors%23your-submissions)
     github: <a class="github-button" href="https://github.com/Newbeeer/orthogonal_classifier" data-size="large" data-show-count="true" aria-label="Star Newbeeer/orthogonal_classifier on GitHub">Star</a>
   - layout: paper
@@ -111,6 +117,8 @@ papers:
     pdf-url: https://openreview.net/forum?id=TSRTzJnuEBS
     venue: conference
     selected: yes
+    poster-url: https://www.dropbox.com/s/igej3jhy56nb3qd/anytime_poster.pdf?dl=0
+    slide-url: https://www.dropbox.com/scl/fi/54d9y4h6pjrxrc5fs2ftf/anytime_paper.pptx?dl=0&rlkey=n1wkz5y47pwdzde2hbdwptatr
     doc-url: https://openreview.net/forum?id=TSRTzJnuEBS
     github: <a class="github-button" href="https://github.com/Newbeeer/Anytime-Auto-Regressive-Model" data-size="large" data-show-count="true" aria-label="Star Newbeeer/Anytime-Auto-Regressive-Model on GitHub">Star</a>
   - layout: paper
@@ -128,6 +136,7 @@ papers:
     video-url: https://papertalk.org/papertalks/4027
     news: News converage
     synced-url: https://www.jiqizhixin.com/articles/2020-04-16-5
+    slide-url: https://www.dropbox.com/scl/fi/pzguksircdjmlgnqnrli1/v_information.pptx?dl=0&rlkey=utta8l9f7p37abfuqdjmwyf9o
   - layout: paper
     paper-type: inproceedings
     year: 2020
@@ -150,6 +159,7 @@ papers:
     venue: conference
     code-url: https://github.com/Newbeeer/L_DMI
     pdf-url: newbeeer.github.io/assets/files/dmi.pdf
+    slide-url: https://www.dropbox.com/s/3lvwp7kgv6nrkm9/DMI_Slides.pdf?dl=0
     github: <a class="github-button" href="https://github.com/Newbeeer/L_DMI" data-size="large" data-show-count="true" aria-label="Star Newbeeer/L_DMI on GitHub">Star</a>
     news: News converage
     synced-url: https://www.jiqizhixin.com/articles/2019-11-21-7
@@ -165,6 +175,7 @@ papers:
     pdf-url: https://openreview.net/pdf?id=BJg9DoR9t7
     venue: conference
     selected: yes
+    slide-url: https://www.dropbox.com/scl/fi/urg6ko7dfulbmz9rc5n9c/max_mig.pptx?dl=0&rlkey=55ktvcvnvvvgw3pv7oezr7r57
     github: <a class="github-button" href="https://github.com/Newbeeer/Max-MIG" data-size="large" data-show-count="true" aria-label="Star Newbeeer/Max-MIG on GitHub">Star</a>
     news: News converage
     cfcs-url: https://mp.weixin.qq.com/s/YFkj5oOwZHSzlfDu-try-g
