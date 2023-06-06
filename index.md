@@ -129,10 +129,10 @@ I have been playing PUBG (mobile), LoL a lot. Find me out!
 
 # Service 
 
-Conference Reviewer: NeurIPS 2020, 2021, 2022; ICLR 2021, 2022, 2023; ICML 2021, 2022, 2023
+Conference Reviewer: NeurIPS 2020, 2021, 2022, 2023; ICLR 2021, 2022, 2023; ICML 2021, 2022, 2023
 
 Workshop Reviewer: ICML-AI4Science 2022
 
 PC member: ICLR 2022 PAIR2Struct Workshop
 
-Teaching Assistant for 6.S052/6.S952: Modeling with Machine learning for CS, MIT, Spring 2023 (*co-design the problem set and lectures for this new course, and receive an outstanding TA rating of 6.9 out of 7.0*)
+Teaching Assistant for 6.S052/6.S952: Modeling with Machine learning for CS, MIT, Spring 2023 (*co-design the problem set and lectures for this new course, and receive an outstanding TA rating of **6.9 out of 7.0** from students*)
