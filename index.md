@@ -34,7 +34,7 @@ My research interests are machine learning.
   <div>
     <h3>&nbsp;&nbsp;&nbsp; Sept. 2021* - : Massachusetts Institute of Technology, Boston</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhD student</p>
-    <p> &nbsp;&nbsp;&nbsp;&nbsp; Advisor: Tommi Jaakkola</p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp; Advisor: <a href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola</a> </p>
     <p>      &nbsp;&nbsp;&nbsp;&nbsp; *: remote during Sept 2020 - Aug 2021</p>
   </div>
 </div>
@@ -46,7 +46,7 @@ My research interests are machine learning.
   <div>
     <h3>&nbsp;&nbsp;&nbsp;Sept. 2016 - July. 2020: Peking University, Beijing</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.S. in Turing Class, Computer Science (summa cum laude)</p>
-    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: Yizhou Wang</p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm">Yizhou Wang</a> </p>
   </div>
 </div>
 
@@ -57,7 +57,21 @@ My research interests are machine learning.
   <div>
     <h3>&nbsp;&nbsp;&nbsp;Jun. 2019 - Sept. 2019: Stanford University, Palo Alto</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visiting student</p>
-    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: Stefano Ermon</p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="https://cs.stanford.edu/~ermon/">Stefano Ermon</a> </p>
+  </div>
+</div>
+<br/>
+
+# Work Experience
+
+<div style="clear: both;">
+  <div style="float: left; margin-right 1em;">
+    <img src="/assets/img/nvidia.png" alt="" width="150" height="150">
+  </div>
+  <div>
+    <h3>&nbsp;&nbsp;&nbsp;Jun. 2023 - now: NVIDIA </h3>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Intern </p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="https://karstenkreis.github.io">Karsten Kreis</a> and <a href="http://latentspace.cc">Arash Vahdat</a> </p>
   </div>
 </div>
 <br/>
