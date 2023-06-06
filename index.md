@@ -138,6 +138,6 @@ Teaching Assistant for 6.S052/6.S952: Modeling with Machine learning for CS, MIT
 
 # Miscellaneous
 
-I am a national second-class table tennis player in China XD. 
+I am a national second-class table tennis player in China XD. Men's single champion in PKU Freshman's Cup (2016). I also played for MIT table tennis team, winning the 3rd place (group) in the 2022 NCTTA Upper New England Championship. 
 
 I have been playing PUBG (mobile), LoL a lot. Find me out! 
