@@ -52,7 +52,7 @@ My research interests are machine learning.
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-    <img src="/assets/img/stanford.png" alt="" width="182" height="150">
+    <img src="/assets/img/stanford.png" alt="" width="150" height="150">
   </div>
   <div>
     <h3>&nbsp;&nbsp;&nbsp;Jun. 2019 - Sept. 2019: Stanford University, Palo Alto</h3>
@@ -66,7 +66,7 @@ My research interests are machine learning.
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-    <img src="/assets/img/nvidia.png" alt="" width="150" height="150">
+    <img src="/assets/img/nvidia.png" alt="" width="182" height="150">
   </div>
   <div>
     <h3>&nbsp;&nbsp;&nbsp;Jun. 2023 - now: NVIDIA </h3>
@@ -123,7 +123,7 @@ Nov 2022
 
 # Miscellaneous
 
-I am a national second-class table tennis player in China XD.
+I am a national second-class table tennis player in China XD. 
 
 I have been playing PUBG (mobile), LoL a lot. Find me out! 
 
