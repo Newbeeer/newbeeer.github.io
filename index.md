@@ -115,11 +115,11 @@ Nov 2022
 
 - **[AI TIME](http://aitime.cn/)**, June 2022 
 
-    *Controlling Directions Orthogonal to a Classifier*
+    *Controlling Directions Orthogonal to a Classifier*, [[Slide]](https://www.dropbox.com/scl/fi/txtz6pwr6xfarg3fetpzb/orthogonal_classifier_ai_times.pptx?dl=0&rlkey=n3p1nxeq8sso0jui9r3xraggh)
 
 - **[AI TIME](http://aitime.cn/)**, June 2021
 
-    *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*
+    *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*, [[Slide](https://www.dropbox.com/scl/fi/m4ulvedtz2e7stnxgydcw/anytime_paper_aitimes.pptx?dl=0&rlkey=7ls7dfcgpq3s64rgkgxarvzld)]
 
 
 # Service 
