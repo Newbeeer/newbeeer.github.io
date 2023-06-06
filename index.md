@@ -90,7 +90,7 @@ My research interests are machine learning.
 
     *Unlocking the Potential of Physics-Inspired Generative Models*, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)]
 
-- **Guest lecturer at 6.S052/6.S952: Modeling with Machine learning for CS, MIT**, April 2023
+- **Guest lecturer at [6.S052/6.S952](https://www.eecs.mit.edu/academics/subject-updates/subject-updates-spring-2023/): Modeling with Machine learning for CS, MIT**, April 2023
 
     *Conditional and Controllable Generation*, [[Slide](https://www.dropbox.com/s/5vgzmmkc59846uu/lecture9.key?dl=0)]
 
@@ -113,11 +113,11 @@ Nov 2022
 
     *Poisson Flow Generative Models (and beyond)*
 
-- **AI TIME**, June 2022 
+- **[AI TIME](http://aitime.cn/)**, June 2022 
 
     *Controlling Directions Orthogonal to a Classifier*
 
-- **AI TIME**, June 2021
+- **[AI TIME](http://aitime.cn/)**, June 2021
 
     *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*, [[Video (CN)](https://www.bilibili.com/video/BV1o64y1R7cP/?spm_id_from=333.337.search-card.all.click)]
 
@@ -126,11 +126,13 @@ Nov 2022
 
 Conference Reviewer: NeurIPS 2020, 2021, 2022, 2023; ICLR 2021, 2022, 2023; ICML 2021, 2022, 2023
 
-Workshop Reviewer: ICML-AI4Science 2022
+Workshop Reviewer: ICML-AI4Science 20220
 
 Journal Reviewer: TMLR, TPAMI
 
 PC member: ICLR 2022 PAIR2Struct Workshop
+
+Panelist: ICML 2023 Workshop on Structured Probabilistic Inference & Generative Modeling
 
 Teaching Assistant for 6.S052/6.S952: Modeling with Machine learning for CS, MIT, Spring 2023 (*co-design the problem set and lectures for this new course, and receive an outstanding TA rating of **6.9 out of 7.0** from students*)
 
