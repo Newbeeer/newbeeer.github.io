@@ -21,6 +21,7 @@ papers:
     venue: conference
     selected: yes
     doc-url: https://arxiv.org/abs/2306.14878
+    github: <a class="github-button" href="https://github.com/Newbeeer/diffusion_restart_sampling" data-size="large" data-show-count="true" aria-label="Star Newbeeer/pfgmmpp on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
     year: 2023
