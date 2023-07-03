@@ -15,7 +15,7 @@ papers:
     year: 2023
     title: "Restart Sampling for Improving Generative Processes"
     authors: <b>Yilun Xu*</b>, Mingyang Deng*, Xiang Cheng*, Yonglong Tian, Ziming Liu, Tommi Jaakkola
-    booktitle: "preprint"
+    booktitle: "preprint, 2023"
     pdf-url: https://arxiv.org/abs/2306.14878
     code-url: https://github.com/Newbeeer/diffusion_restart_sampling
     venue: conference
@@ -43,7 +43,7 @@ papers:
     year: 2023
     title: "GenPhys: From Physical Processes to Generative Models"
     authors: Ziming Liu, Di Luo, <b>Yilun Xu</b>, Tommi Jaakkola, Max Tegmark
-    booktitle: "preprint"
+    booktitle: "preprint, 2023"
     pdf-url: https://arxiv.org/abs/2304.02637
     venue: conference
     selected: yes
@@ -103,7 +103,7 @@ papers:
     year: 2021
     title: "Learning Representations that Support Robust Transfer of Predictors"
     authors:  <b>Yilun Xu</b>, Tommi Jaakkola
-    booktitle: "preprint"
+    booktitle: "preprint, 2022"
     code-url: https://github.com/Newbeeer/TRM
     pdf-url: https://arxiv.org/abs/2110.09940
     venue: conference
