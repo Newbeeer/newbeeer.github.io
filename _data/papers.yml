@@ -103,7 +103,7 @@ papers:
     year: 2022
     title: "A Survey on Generative Diffusion Model"
     authors: Hanqun Cao, Cheng Tan, Zhangyang Gao, <b>Yilun Xu</b>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li
-    booktitle: "preprint, 2023"
+    booktitle: "preprint, 2022"
     code-url: https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model
     pdf-url: https://arxiv.org/pdf/2209.02646.pdf
     venue: conference
