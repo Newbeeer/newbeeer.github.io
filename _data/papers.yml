@@ -100,6 +100,18 @@ papers:
     github: <a class="github-button" href="https://github.com/Newbeeer/orthogonal_classifier" data-size="large" data-show-count="true" aria-label="Star Newbeeer/orthogonal_classifier on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
+    year: 2022
+    title: "A Survey on Generative Diffusion Model"
+    authors: Hanqun Cao, Cheng Tan, Zhangyang Gao, <b>Yilun Xu</b>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li
+    booktitle: "preprint, 2023"
+    code-url: https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model
+    pdf-url: https://arxiv.org/pdf/2209.02646.pdf
+    venue: conference
+    selected: yes
+    doc-url: https://arxiv.org/pdf/2209.02646.pdf
+    github: <a class="github-button" href="https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model" data-size="large" data-show-count="true" aria-label="Star chq1155/A-Survey-on-Generative-Diffusion-Model on GitHub">Star</a>
+  - layout: paper
+    paper-type: inproceedings
     year: 2021
     title: "Learning Representations that Support Robust Transfer of Predictors"
     authors:  <b>Yilun Xu</b>, Tommi Jaakkola
