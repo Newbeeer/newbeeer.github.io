@@ -81,7 +81,7 @@ My research interests are machine learning.
 - **[NVIDIA Research](https://www.nvidia.com/en-us/research/)**, May 2023
 
     *Unlocking the Potential of Physics-Inspired Generative Models*, 
-- 
+
 - **[ByteDance, AI for Science Team](https://swarma.org)**, May 2023
 
     *Unlocking the Potential of Physics-Inspired Generative Models*, 
