@@ -82,7 +82,7 @@ My research interests are machine learning.
 
     *Unlocking the Potential of Physics-Inspired Generative Models*, 
 
-- **[ByteDance, AI for Science Team](https://swarma.org)**, May 2023
+- **ByteDance, AI for Science Team**, May 2023
 
     *Unlocking the Potential of Physics-Inspired Generative Models*, 
 
