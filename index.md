@@ -78,6 +78,10 @@ My research interests are machine learning.
 
 # Talk
 
+- **[Peking University, CFCS](https://cfcs.pku.edu.cn/english/)**, Aug 2022
+
+    *Unlocking the Potential of Physics-Inspired Generative Models*,
+
 - **[NVIDIA Research](https://www.nvidia.com/en-us/research/)**, July 2023
 
     *Unlocking the Potential of Physics-Inspired Generative Models*, 
