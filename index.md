@@ -78,7 +78,7 @@ My research interests are machine learning.
 
 # Talk
 
-- **[Peking University, CFCS](https://cfcs.pku.edu.cn/english/)**, Aug 2022
+- **[Peking University, CFCS](https://cfcs.pku.edu.cn/english/)**, Aug 2023
 
     *Unlocking the Potential of Physics-Inspired Generative Models*,
 
