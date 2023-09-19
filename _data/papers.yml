@@ -50,6 +50,7 @@ papers:
     pdf-url: https://arxiv.org/abs/2304.02637
     venue: conference
     selected: yes
+    news: News coverage
     doc-url: https://arxiv.org/abs/2304.02637
     quanta-url: https://www.quantamagazine.org/new-physics-inspired-generative-ai-exceeds-expectations-20230919/
   - layout: paper
