@@ -15,7 +15,7 @@ papers:
     year: 2023
     title: "Restart Sampling for Improving Generative Processes"
     authors: <b>Yilun Xu*</b>, Mingyang Deng*, Xiang Cheng*, Yonglong Tian, Ziming Liu, Tommi Jaakkola
-    booktitle: "preprint, 2023"
+    booktitle: "Neural Information Processing Systems (NeurIPS), 2023."
     pdf-url: https://arxiv.org/abs/2306.14878
     code-url: https://github.com/Newbeeer/diffusion_restart_sampling
     venue: conference
