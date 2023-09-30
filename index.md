@@ -13,7 +13,7 @@ My research interests are machine learning, with a current emphasis on generativ
 # Publications 
 (*) denotes equal contribution
 
-<ul>
+<ol>
 {% for paper in site.data.papers.papers %}
   {% if paper.selected %}
   <li>
@@ -21,7 +21,7 @@ My research interests are machine learning, with a current emphasis on generativ
   </li>
   {% endif %}
 {% endfor %}
-</ul>
+</ol>
 
 
 
@@ -77,6 +77,7 @@ My research interests are machine learning, with a current emphasis on generativ
 <br/>
 
 # Talk
+
 
 - **[Peking University, CFCS](https://cfcs.pku.edu.cn/english/)**, Aug 2023
 
