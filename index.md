@@ -13,7 +13,7 @@ My research interests are machine learning, with a current emphasis on generativ
 # Publications 
 (*) denotes equal contribution
 
-<ol>
+<ol reversed>
 {% for paper in site.data.papers.papers %}
   {% if paper.selected %}
   <li>
