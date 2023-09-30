@@ -39,6 +39,7 @@ papers:
     github: <a class="github-button" href="https://github.com/Newbeeer/pfgmpp" data-size="large" data-show-count="true" aria-label="Star Newbeeer/pfgmmpp on GitHub">Star</a>
     pwc: <a href="https://paperswithcode.com/sota/image-generation-on-cifar-10?p=pfgm-unlocking-the-potential-of-physics"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pfgm-unlocking-the-potential-of-physics/image-generation-on-cifar-10" alt="PWC"></a>
     news: News coverage
+    mitnews-url: https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927
     quanta-url: https://www.quantamagazine.org/new-physics-inspired-generative-ai-exceeds-expectations-20230919/
     jiangmen-url: https://mp.weixin.qq.com/s/9RTK4qFzEIzLhoixGUR0QQ
   - layout: paper
@@ -52,6 +53,7 @@ papers:
     selected: yes
     news: News coverage
     doc-url: https://arxiv.org/abs/2304.02637
+    mitnews-url: https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927
     quanta-url: https://www.quantamagazine.org/new-physics-inspired-generative-ai-exceeds-expectations-20230919/
   - layout: paper
     paper-type: inproceedings
@@ -83,6 +85,7 @@ papers:
     selected: yes
     doc-url: https://arxiv.org/abs/2209.11178
     news: News coverage
+    mitnews-url: https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927
     quanta-url: https://www.quantamagazine.org/new-physics-inspired-generative-ai-exceeds-expectations-20230919/
     marktechpost-url: https://www.marktechpost.com/2022/10/01/latest-machine-learning-research-at-mit-presents-a-novel-poisson-flow-generative-model-pfgm-that-maps-any-data-distribution-into-a-uniform-distribution-on-a-high-dimensional-hemisphere/?fbclid=IwAR2AN6mCkpbzLtIXat85Rkyc-DXLx9HEDIFZJzLx1Aeo2OwwbrneAn1wUJw
     assembly-url: https://www.assemblyai.com/blog/an-introduction-to-poisson-flow-generative-models/

@@ -10,6 +10,7 @@
     {% if include.paper.video %},<a href="{{ include.paper.video-url }}">[Video]</a>{% endif %}
     {% if include.paper.news %}
         <br/>News Coverage:
+        {% if include.paper.mitnews-url %}<a href="{{ include.paper.mitnews-url }}">[MIT News]</a>, {% endif %}
         {% if include.paper.quanta-url %}<a href="{{ include.paper.quanta-url }}">[Quanta Magazine]</a>, {% endif %}
         {% if include.paper.assembly-url %}<a href="{{ include.paper.assembly-url }}">[AssemblyAI Blog]</a>, {% endif %}
         {% if include.paper.marktechpost-url %}<a href="{{ include.paper.marktechpost-url }}">[MarkTechPost]</a>, {% endif %}
