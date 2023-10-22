@@ -20,7 +20,7 @@ papers:
     code-url: https://github.com/gcorso/particle-guidance
     venue: conference
     selected: yes
-    doc-url: https://arxiv.org/abs/2306.14878
+    doc-url: https://openreview.net/forum?id=KqbCvIFBY7
   - layout: paper
     paper-type: inproceedings
     year: 2023
