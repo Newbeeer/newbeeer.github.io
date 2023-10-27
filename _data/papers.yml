@@ -29,12 +29,13 @@ papers:
     year: 2023
     title: "Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models"
     authors: Gabriele Corso, <b>Yilun Xu</b>, Valentin De Bortoli, Regina Barzilay, Tommi Jaakkola
-    booktitle: "Deep Inverse Workshop, Neural Information Processing Systems (NeurIPS), 2023. (Oral)"
-    pdf-url: https://openreview.net/forum?id=KqbCvIFBY7
+    booktitle: "Deep Inverse Workshop, Neural Information Processing Systems (NeurIPS), 2023 (Oral); Workshop on Diffusion Models, Neural Information Processing Systems (NeurIPS), 2023. "
+    pdf-url: https://arxiv.org/abs/2310.13102
     code-url: https://github.com/gcorso/particle-guidance
     venue: conference
     selected: yes
-    doc-url: https://openreview.net/forum?id=KqbCvIFBY7
+    doc-url: https://arxiv.org/abs/2310.13102
+    github: <a class="github-button" href="https://github.com/gcorso/particle-guidance" data-size="large" data-show-count="true" aria-label="Star gcorso/particle-guidance on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
     year: 2023
