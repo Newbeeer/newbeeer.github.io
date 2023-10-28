@@ -4,7 +4,7 @@ title: About me
 cover: false
 ---
 
-Hi, I am Yilun Xu. I am a fourth year PhD student in MIT, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, Peking University. I had the privilege of working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) in PKU, and [Stefano Ermon](https://cs.stanford.edu/~ermon/) in Stanford.
+Hi, I am Yilun Xu. I am a fourth year PhD student in MIT, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, Peking University. I had the privilege of working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) in PKU, and [Stefano Ermon](https://cs.stanford.edu/~ermon/) in Stanford. I also work with [Karsten Kreis](https://karstenkreis.github.io) and [Arash Vahdat](http://latentspace.cc) in NVIDIA Research. 
  
 My research interests are machine learning, with a current emphasis on generative modeling: (i) new family of generative models [13, 12, 10]; (ii) improving the training, sampling and controllability of generative models, e.g. PFGM and diffusion models [15, 14, 11, 9, 5]. Previously, I worked on bridging machine learning and information theory [4, 3, 2, 1].
 
@@ -78,68 +78,48 @@ My research interests are machine learning, with a current emphasis on generativ
 
 # Talk
 
+- *Generative Models & Physical Processes*
+  - **UCLA, hosted by Prof. [Yingnian Wu](http://www.stat.ucla.edu/~ywu/me.html)**, Oct 2023 [[Slide]](https://www.dropbox.com/scl/fi/f91h30eevegprnjmu9dsa/talk.key?rlkey=g3owuav0sgfh910q38go2buk3&dl=0)
 
-- **[Peking University, CFCS](https://cfcs.pku.edu.cn/english/)**, Aug 2023
+- *Unlocking the Potential of Physics-Inspired Generative Models*
+  - **[Learning on Graphs and Geometry](https://m2d2.io/talks/logg/about/) seminar**. Oct, 2023 [[Video]](https://www.youtube.com/watch?v=VFXKMlcl7QA)
+  - **Zhejiang University, hosted by Prof. Chao Xu**, Oct 2023 
 
-    *Unlocking the Potential of Physics-Inspired Generative Models*,
+  - **[Peking University, CFCS](https://cfcs.pku.edu.cn/english/)**, Aug 2023
 
-- **[NVIDIA Research](https://www.nvidia.com/en-us/research/)**, July 2023
+  - **[NVIDIA Research](https://www.nvidia.com/en-us/research/)**, July 2023
 
-    *Unlocking the Potential of Physics-Inspired Generative Models*, 
+  - **ByteDance, AI for Science Team**, July 2023
 
-- **ByteDance, AI for Science Team**, July 2023
+  - **[Swarma Club](https://swarma.org)**, May 2023, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)]  [[Video (CN)](https://www.bilibili.com/video/BV17g4y1V7wY/?spm_id_from=333.337.search-card.all.click)]
 
-    *Unlocking the Potential of Physics-Inspired Generative Models*, 
+  - **[TechBeat/Jiangmen Ventures](https://www.techbeat.net)**, April 2023, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)] [[Video (CN)](https://www.bilibili.com/video/BV1HV4y167q1/?spm_id_from=333.337.search-card.all.click)]
 
-- **[Swarma Club](https://swarma.org)**, May 2023
+  - **[MLTea Talk](https://mlxmit.mit.edu/ml-tea-talks)**, MIT, April 2023, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)]
+  - **Stanford University, hosted by Prof. [Mert Pilanci](https://web.stanford.edu/~pilanci/)**, Feb 2023, [[Slide](https://www.dropbox.com/scl/fi/6p0av7cak0yp59g0zt32z/Mert_group.pptx?dl=0&rlkey=ix5smfxcio8snzbck2odpod5q)]
 
-    *Unlocking the Potential of Physics-Inspired Generative Models*, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)]  [[Video (CN)](https://www.bilibili.com/video/BV17g4y1V7wY/?spm_id_from=333.337.search-card.all.click)]
+- *Conditional and Controllable Generation*  
+  - **Guest lecturer at [6.S052/6.S952](https://www.eecs.mit.edu/academics/subject-updates/subject-updates-spring-2023/): Modeling with Machine learning for CS, MIT**, April 2023, [[Slide](https://www.dropbox.com/s/5vgzmmkc59846uu/lecture9.key?dl=0)]
 
-- **[TechBeat/Jiangmen Ventures](https://www.techbeat.net)**, April 2023
+- *Poisson Flow Generative Models*
+  - **[AssemblyAI](https://www.assemblyai.com) AI Hackathon**, Dec 2022, [[Slide](https://www.dropbox.com/scl/fi/kf4xei8mahx8uwuxdzxaj/assembly-ai.pptx?dl=0&rlkey=cjuuayvv672nk9t7vy1jgf8gc)]
 
-    *Unlocking the Potential of Physics-Inspired Generative Models*, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)] [[Video (CN)](https://www.bilibili.com/video/BV1HV4y167q1/?spm_id_from=333.337.search-card.all.click)]
+  - **Princeton University, hosted by Prof. [Mengdi Wang](https://mwang.princeton.edu)**, Nov 2022, [[Slide](https://www.dropbox.com/scl/fi/wn13m59v28ts5heolr0qv/mengdi_group.pptx?dl=0&rlkey=7sxw47b6i0jdvroisg586o92s)]
 
-- **[MLTea Talk](https://mlxmit.mit.edu/ml-tea-talks)**, MIT, April 2023
+  - **[MIT NetMIT Group](http://groups.csail.mit.edu/netmit/wordpress/), hosted by Prof. [Dina Katabi](https://people.csail.mit.edu/dina/)**,
+  Nov 2022 
 
-    *Unlocking the Potential of Physics-Inspired Generative Models*, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)]
-
-- **Guest lecturer at [6.S052/6.S952](https://www.eecs.mit.edu/academics/subject-updates/subject-updates-spring-2023/): Modeling with Machine learning for CS, MIT**, April 2023
-
-    *Conditional and Controllable Generation*, [[Slide](https://www.dropbox.com/s/5vgzmmkc59846uu/lecture9.key?dl=0)]
-
-- **Stanford University, hosted by Prof. [Mert Pilanci](https://web.stanford.edu/~pilanci/)**, Feb 2023
-
-    *Unlocking the Potential of Physics-Inspired Generative Models*, [[Slide](https://www.dropbox.com/scl/fi/6p0av7cak0yp59g0zt32z/Mert_group.pptx?dl=0&rlkey=ix5smfxcio8snzbck2odpod5q)]
-
-- **[AssemblyAI](https://www.assemblyai.com) AI Hackathon**,
-Dec 2022
-
-    *Poisson Flow Generative Models*, [[Slide](https://www.dropbox.com/scl/fi/kf4xei8mahx8uwuxdzxaj/assembly-ai.pptx?dl=0&rlkey=cjuuayvv672nk9t7vy1jgf8gc)]
-
-- **Princeton University, hosted by Prof. [Mengdi Wang](https://mwang.princeton.edu)**,
-Nov 2022
-
-    *Poisson Flow Generative Models (and beyond)*, [[Slide](https://www.dropbox.com/scl/fi/wn13m59v28ts5heolr0qv/mengdi_group.pptx?dl=0&rlkey=7sxw47b6i0jdvroisg586o92s)]
-
-- **[MIT NetMIT Group](http://groups.csail.mit.edu/netmit/wordpress/), hosted by Prof. [Dina Katabi](https://people.csail.mit.edu/dina/)**,
-Nov 2022 
-
-    *Poisson Flow Generative Models (and beyond)*
-
-- **[AI TIME](http://aitime.cn/)**, June 2022 
-
-    *Controlling Directions Orthogonal to a Classifier*, [[Slide]](https://www.dropbox.com/scl/fi/txtz6pwr6xfarg3fetpzb/orthogonal_classifier_ai_times.pptx?dl=0&rlkey=n3p1nxeq8sso0jui9r3xraggh)
-
-- **[AI TIME](http://aitime.cn/)**, June 2021
-
-    *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*, [[Slide](https://www.dropbox.com/scl/fi/m4ulvedtz2e7stnxgydcw/anytime_paper_aitimes.pptx?dl=0&rlkey=7ls7dfcgpq3s64rgkgxarvzld)]
+- *Controlling Directions Orthogonal to a Classifier*,
+  - **[AI TIME](http://aitime.cn/)**, June 2022, [[Slide]](https://www.dropbox.com/scl/fi/txtz6pwr6xfarg3fetpzb/orthogonal_classifier_ai_times.pptx?dl=0&rlkey=n3p1nxeq8sso0jui9r3xraggh)
+- *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*
+  - **[AI TIME](http://aitime.cn/)**, June 2021, [[Slide](https://www.dropbox.com/scl/fi/m4ulvedtz2e7stnxgydcw/anytime_paper_aitimes.pptx?dl=0&rlkey=7ls7dfcgpq3s64rgkgxarvzld)]
 
 
 # Service 
 
-Conference Reviewer: NeurIPS 2020, 2021, 2022, 2023; ICLR 2021, 2022, 2023; ICML 2021, 2022, 2023
+Conference Reviewer: NeurIPS 2020, 2021, 2022, 2023; ICLR 2021, 2022, 2023, 2024; ICML 2021, 2022, 2023
 
-Workshop Reviewer: ICML-AI4Science 20220
+Workshop Reviewer: ICML-AI4Science 2022
 
 Journal Reviewer: TMLR, TPAMI
 
