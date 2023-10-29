@@ -76,7 +76,7 @@ My research interests are machine learning, with a current emphasis on generativ
 </div>
 <br/>
 
-# Talk
+# Talks
 
 - *Generative Models & Physical Processes*
   - **UCLA, hosted by Prof. [Yingnian Wu](http://www.stat.ucla.edu/~ywu/me.html)**, Oct 2023 [[Slide]](https://www.dropbox.com/scl/fi/f91h30eevegprnjmu9dsa/talk.key?rlkey=g3owuav0sgfh910q38go2buk3&dl=0)
