@@ -13,6 +13,18 @@ papers:
   - layout: paper
     paper-type: inproceedings
     year: 2023
+    title: "Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models"
+    authors: Gabriele Corso, <b>Yilun Xu</b>, Valentin De Bortoli, Regina Barzilay, Tommi Jaakkola
+    booktitle: "International Conference on Learning Representations (ICLR), 2023; Deep Inverse Workshop, Neural Information Processing Systems (NeurIPS), 2023 (Oral); Workshop on Diffusion Models, Neural Information Processing Systems (NeurIPS), 2023. "
+    pdf-url: https://arxiv.org/abs/2310.13102
+    code-url: https://github.com/gcorso/particle-guidance
+    venue: conference
+    selected: yes
+    doc-url: https://arxiv.org/abs/2310.13102
+    github: <a class="github-button" href="https://github.com/gcorso/particle-guidance" data-size="large" data-show-count="true" aria-label="Star gcorso/particle-guidance on GitHub">Star</a>
+  - layout: paper
+    paper-type: inproceedings
+    year: 2023
     title: "Restart Sampling for Improving Generative Processes"
     authors: <b>Yilun Xu*</b>, Mingyang Deng*, Xiang Cheng*, Yonglong Tian, Ziming Liu, Tommi Jaakkola
     booktitle: "Neural Information Processing Systems (NeurIPS), 2023."
@@ -24,18 +36,6 @@ papers:
     github: <a class="github-button" href="https://github.com/Newbeeer/diffusion_restart_sampling" data-size="large" data-show-count="true" aria-label="Star Newbeeer/pfgmmpp on GitHub">Star</a>
     news: News coverage
     marktechpost-url: https://www.marktechpost.com/2023/06/29/mit-researchers-introduce-restart-sampling-for-improving-generative-processes/
-  - layout: paper
-    paper-type: inproceedings
-    year: 2023
-    title: "Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models"
-    authors: Gabriele Corso, <b>Yilun Xu</b>, Valentin De Bortoli, Regina Barzilay, Tommi Jaakkola
-    booktitle: "Deep Inverse Workshop, Neural Information Processing Systems (NeurIPS), 2023 (Oral); Workshop on Diffusion Models, Neural Information Processing Systems (NeurIPS), 2023. "
-    pdf-url: https://arxiv.org/abs/2310.13102
-    code-url: https://github.com/gcorso/particle-guidance
-    venue: conference
-    selected: yes
-    doc-url: https://arxiv.org/abs/2310.13102
-    github: <a class="github-button" href="https://github.com/gcorso/particle-guidance" data-size="large" data-show-count="true" aria-label="Star gcorso/particle-guidance on GitHub">Star</a>
   - layout: paper
     paper-type: inproceedings
     year: 2023
