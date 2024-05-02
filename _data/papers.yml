@@ -12,6 +12,18 @@ papers:
 #    doc-url:
   - layout: paper
     paper-type: inproceedings
+    year: 2024
+    title: "DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents"
+    authors: <b>Yilun Xu</b>, Gabriele Corso, Tommi Jaakkola, Arash Vahdat, Karsten Kreis
+    booktitle: "International Conference on Machine Learning (ICML), 2024."
+    pdf-url:
+    code-url:
+    venue: conference
+    selected: yes
+    doc-url:
+    github:
+  - layout: paper
+    paper-type: inproceedings
     year: 2023
     title: "Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models"
     authors: Gabriele Corso, <b>Yilun Xu</b>, Valentin De Bortoli, Regina Barzilay, Tommi Jaakkola
@@ -124,7 +136,7 @@ papers:
     year: 2022
     title: "A Survey on Generative Diffusion Model"
     authors: Hanqun Cao, Cheng Tan, Zhangyang Gao, <b>Yilun Xu</b>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li
-    booktitle: "IEEE Transactions on Knowledge and Data Engineering (TKDE)."
+    booktitle: "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023."
     code-url: https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model
     pdf-url: https://arxiv.org/pdf/2209.02646.pdf
     venue: conference
