@@ -32,7 +32,8 @@
       {% if include.paper.article%}: Article {{ include.paper.article}},{% endif %}
       {% if include.paper.pages %}: pages {{ include.paper.pages }},{% endif %}.
   {% when "dissertation" %}
-    Dissertation, {{ include.paper.institution }}.
+    PhD Thesis, {{ include.paper.institution }}.
+    <a href="{{ include.paper.pdf-url }}" target="_blank">[PDF]</a>
 {% endcase %}
 <!--{{ include.paper.year }}. -->
 
