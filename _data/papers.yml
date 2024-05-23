@@ -11,6 +11,14 @@ papers:
 #    selected: yes
 #    doc-url:
   - layout: paper
+    paper-type: phd
+    year: 2024
+    title: "On Physics-Inspired Generative Models"
+    authors: <b>Yilun Xu</b>
+    pdf-url: https://www.dropbox.com/scl/fi/56ve1kfxs69w1ns9ewszt/phd_thesis_yilun_xu.pdf?rlkey=rjk2vq33qxkj9rlv2v0wsdog3&e=1&dl=0
+    selected: yes
+    doc-url: https://www.dropbox.com/scl/fi/56ve1kfxs69w1ns9ewszt/phd_thesis_yilun_xu.pdf?rlkey=rjk2vq33qxkj9rlv2v0wsdog3&e=1&dl=0
+  - layout: paper
     paper-type: inproceedings
     year: 2024
     title: "DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents"

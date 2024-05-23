@@ -6,19 +6,20 @@
       {% if paper.authors %}
         {{ paper.authors | replace: 'With', 'Adam Lopez,' }}. 
       {% else %}
-        Adam Lopez.
+       Yilun Xu
       {% endif %}
       {{ paper.year }}. 
       {% capture title_end %}{{ paper.title | slice: -1 }}{% endcapture %}
       {{ paper.title }}{% unless title_end == '?' %}.{% endunless %}
-      In
       {% case paper.paper-type %}
         {% when "inproceedings" %}
-          <i>{{ paper.booktitle }}</i>.
+          In <i>{{ paper.booktitle }}</i>.
         {% when "article" %}
             <i>{{ paper.journal }}</i>,
             {% if paper.volume %}{{ paper.volume }}{% if paper.number %}({{ paper.number }}){% endif %}.{% endif %}
             {% if paper.article%}Article {{ paper.article}}.{% endif %}
+        {% when "phd" %}
+            PhD Thesis
       {% endcase %}
       </li>
     {% endif %}
