@@ -25,10 +25,11 @@ papers:
     title: "DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents"
     authors: <b>Yilun Xu</b>, Gabriele Corso, Tommi Jaakkola, Arash Vahdat, Karsten Kreis
     booktitle: "International Conference on Machine Learning (ICML), 2024."
-    pdf-url:
+    pdf-url: https://arxiv.org/abs/2407.03300
     code-url:
     venue: conference
     selected: yes
+    project-page: https://research.nvidia.com/labs/lpr/disco-diff/
     doc-url:
     github:
   - layout: paper
