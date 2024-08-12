@@ -32,6 +32,8 @@ papers:
     project-page: https://research.nvidia.com/labs/lpr/disco-diff/
     doc-url:
     github:
+    pwc: <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-64x64?p=disco-diff-enhancing-continuous-diffusion"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/disco-diff-enhancing-continuous-diffusion/image-generation-on-imagenet-64x64" alt="PWC"></a>
+    pwc2: <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-128x128?p=disco-diff-enhancing-continuous-diffusion"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/disco-diff-enhancing-continuous-diffusion/image-generation-on-imagenet-128x128" alt="PWC"></a>
   - layout: paper
     paper-type: inproceedings
     year: 2023

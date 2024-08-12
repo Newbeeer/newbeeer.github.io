@@ -27,6 +27,9 @@
     {% if include.paper.pwc %}
         <br/> {{ include.paper.pwc }}
     {% endif %}
+    {% if include.paper.pwc2 %}
+        {{ include.paper.pwc2 }}
+    {% endif %}
   {% when "article" %}
     In <i>{{ include.paper.journal }}</i>,
       {% if include.paper.volume %}{{ include.paper.volume }}{% endif %}{% if include.paper.number %}({{ include.paper.number }}){% endif %}

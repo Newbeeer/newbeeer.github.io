@@ -6,7 +6,7 @@ cover: false
 
 Hi, I am Yilun Xu, a research scientist in NVIDIA Research, fundamental Gen AI team.
 
-I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, Peking University. I had the privilege of working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) in PKU, and [Stefano Ermon](https://cs.stanford.edu/~ermon/) in Stanford. I also work with [Karsten Kreis](https://karstenkreis.github.io) and [Arash Vahdat](http://latentspace.cc) in NVIDIA Research. 
+I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, Peking University. I had the privilege of working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) in PKU, and [Stefano Ermon](https://cs.stanford.edu/~ermon/) in Stanford. I also worked with [Karsten Kreis](https://karstenkreis.github.io) and [Arash Vahdat](http://latentspace.cc) in NVIDIA Research, during summer 2023. 
  
 My research interests are machine learning, with a current emphasis on generative modeling: (i) new family of generative models [13, 12, 10]; (ii) improving the training, sampling and controllability of generative models, e.g. PFGM and diffusion models [16, 15, 14, 11, 9, 5]. Previously, I worked on bridging machine learning and information theory [4, 3, 2, 1].
 
@@ -73,7 +73,7 @@ My research interests are machine learning, with a current emphasis on generativ
     <img src="/assets/img/nvidia.png" alt="" width="182" height="150">
   </div>
   <div>
-    <h3>&nbsp;&nbsp;&nbsp;Jun. 2023 - now: NVIDIA </h3>
+    <h3>&nbsp;&nbsp;&nbsp;Jun. 2023 - May, 2024: NVIDIA </h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Intern </p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="https://karstenkreis.github.io">Karsten Kreis</a> and <a href="http://latentspace.cc">Arash Vahdat</a> </p>
   </div>
