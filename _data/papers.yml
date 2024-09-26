@@ -11,6 +11,16 @@ papers:
 #    selected: yes
 #    doc-url:
   - layout: paper
+    paper-type: inproceedings
+    year: 2024
+    title: "Hamiltonian Score Matching and Generative Flows"
+    authors: Peter Holderrieth, <b>Yilun Xu</b>, Tommi Jaakkola
+    booktitle: "Neural Information Processing Systems (NeurIPS), 2024. "
+    pdf-url:
+    venue: conference
+    selected: yes
+    doc-url:
+  - layout: paper
     paper-type: dissertation
     year: 2024
     title: "On Physics-Inspired Generative Models"

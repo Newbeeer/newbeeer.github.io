@@ -4,7 +4,7 @@ title: About me
 cover: false
 ---
 
-Hi, I am Yilun Xu, a research scientist in NVIDIA Research, fundamental Gen AI team.
+Hi, I am Yilun Xu, a research scientist in NVIDIA Research, fundamental GenAI research team.
 
 I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, Peking University. I had the privilege of working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) in PKU, and [Stefano Ermon](https://cs.stanford.edu/~ermon/) in Stanford. I also worked with [Karsten Kreis](https://karstenkreis.github.io) and [Arash Vahdat](http://latentspace.cc) in NVIDIA Research, during summer 2023. 
  
@@ -36,7 +36,7 @@ My research interests are machine learning, with a current emphasis on generativ
     <img src="/assets/img/mit.png" alt="" width="150" height="150">
   </div>
   <div>
-    <h3>&nbsp;&nbsp;&nbsp; Sept. 2021* - : Massachusetts Institute of Technology, Boston</h3>
+    <h3>&nbsp;&nbsp;&nbsp; Sept. 2021* - May. 2024: Massachusetts Institute of Technology, Boston</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhD student</p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp; Advisor: <a href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola</a> </p>
     <p>      &nbsp;&nbsp;&nbsp;&nbsp; *: remote during Sept 2020 - Aug 2021</p>
