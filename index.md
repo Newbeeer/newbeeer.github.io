@@ -60,7 +60,7 @@ My research interests are machine learning, with a current emphasis on generativ
   </div>
   <div>
     <h3>&nbsp;&nbsp;&nbsp;Jun. 2019 - Sep. 2019: Stanford University</h3>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visiting student</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visiting reseacher </p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="https://cs.stanford.edu/~ermon/">Stefano Ermon</a> </p>
   </div>
 </div>
