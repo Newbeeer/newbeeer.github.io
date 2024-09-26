@@ -37,7 +37,7 @@ My research interests are machine learning, with a current emphasis on generativ
   </div>
   <div>
     <h3>&nbsp;&nbsp;&nbsp; Sep. 2021* - May. 2024: Massachusetts Institute of Technology</h3>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ph.D. in Computer Science student</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ph.D. in Computer Science </p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp; Advisor: <a href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola</a> </p>
     <p>      &nbsp;&nbsp;&nbsp;&nbsp; *: remote during Sept 2020 - Aug 2021</p>
   </div>
