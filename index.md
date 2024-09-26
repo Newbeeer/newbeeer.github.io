@@ -82,6 +82,11 @@ My research interests are machine learning, with a current emphasis on generativ
 
 # Talks
 
+- *On Physics-Inspired Generative Models*
+  - **Peking University, hosted by Prof. [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm)**, June 2024 [[Video (CN)](https://www.bilibili.com/video/BV1e6421f7kY/?spm_id_from=333.337.search-card.all.click)], [[Slide](https://www.dropbox.com/scl/fi/qed49r04bejmhlws22j1j/phd_defense.pptx?rlkey=8kw9owov91qi49zjrr2ulimok&st=lfeaq85o&dl=0)]
+  
+  - **CUHK, hosted by Prof. [Pheng Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/)**, June 2024
+
 - *Generative Models & Physical Processes*
   - **UCLA, hosted by Prof. [Yingnian Wu](http://www.stat.ucla.edu/~ywu/me.html)**, Oct 2023 [[Slide]](https://www.dropbox.com/scl/fi/f91h30eevegprnjmu9dsa/talk.key?rlkey=g3owuav0sgfh910q38go2buk3&dl=0)
 
