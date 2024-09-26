@@ -36,7 +36,7 @@ My research interests are machine learning, with a current emphasis on generativ
     <img src="/assets/img/mit.png" alt="" width="150" height="150">
   </div>
   <div>
-    <h3>&nbsp;&nbsp;&nbsp; Sept. 2021* - May. 2024: Massachusetts Institute of Technology, Boston</h3>
+    <h3>&nbsp;&nbsp;&nbsp; Sep. 2021* - May. 2024: Massachusetts Institute of Technology</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PhD student</p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp; Advisor: <a href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola</a> </p>
     <p>      &nbsp;&nbsp;&nbsp;&nbsp; *: remote during Sept 2020 - Aug 2021</p>
@@ -48,7 +48,7 @@ My research interests are machine learning, with a current emphasis on generativ
     <img src="/assets/img/pku.png" alt="" width="150" height="150">
   </div>
   <div>
-    <h3>&nbsp;&nbsp;&nbsp;Sept. 2016 - July. 2020: Peking University, Beijing</h3>
+    <h3>&nbsp;&nbsp;&nbsp;Sep. 2016 - July. 2020: Peking University</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.S. in Turing Class, Computer Science (summa cum laude)</p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm">Yizhou Wang</a> </p>
   </div>
@@ -59,7 +59,7 @@ My research interests are machine learning, with a current emphasis on generativ
     <img src="/assets/img/stanford.png" alt="" width="150" height="150">
   </div>
   <div>
-    <h3>&nbsp;&nbsp;&nbsp;Jun. 2019 - Sept. 2019: Stanford University, Palo Alto</h3>
+    <h3>&nbsp;&nbsp;&nbsp;Jun. 2019 - Sep. 2019: Stanford University</h3>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visiting student</p>
     <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="https://cs.stanford.edu/~ermon/">Stefano Ermon</a> </p>
   </div>
