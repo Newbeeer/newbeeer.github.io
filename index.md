@@ -12,7 +12,7 @@ My research interests are machine learning, with a current emphasis on generativ
 
 
 
-**Contact**: ylxu@mit.edu , xuyilun@pku.edu.cn
+**Contact**: yilunx@nvidia.com, <s>ylxu@mit.edu</s> , <s>xuyilun@pku.edu.cn</s>
 
 # Publications 
 (*) denotes equal contribution
