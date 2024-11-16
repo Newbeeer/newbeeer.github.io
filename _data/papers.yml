@@ -13,6 +13,47 @@ papers:
   - layout: paper
     paper-type: inproceedings
     year: 2024
+    title: "Truncated Consistency Models"
+    authors: Sangyun Lee, <b>Yilun Xu</b>, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie
+    booktitle: "preprint, 2024"
+    pdf-url: https://arxiv.org/abs/2410.14895
+    venue: conference
+    selected: yes
+    doc-url: https://arxiv.org/abs/2410.14895
+    project-page: https://truncated-cm.github.io
+  - layout: paper
+    paper-type: inproceedings
+    year: 2024
+    title: "Heavy-Tailed Diffusion Models"
+    authors: Kushagra Pandey, Jaideep Pathak, <b>Yilun Xu</b>, Stephan Mandt, Michael Pritchard, Arash Vahdat, Morteza Mardani
+    booktitle: "preprint, 2024"
+    pdf-url: https://arxiv.org/abs/2410.14171
+    venue: conference
+    selected: yes
+    doc-url: https://arxiv.org/abs/2410.14171
+  - layout: paper
+    paper-type: inproceedings
+    year: 2024
+    title: "Energy-Based Diffusion Language Models for Text Generation"
+    authors: Minkai Xu, Tomas Geffner, Karsten Kreis, Weili Nie, <b>Yilun Xu</b>, Jure Leskovec, Stefano Ermon, Arash Vahdat
+    booktitle: "preprint, 2024"
+    pdf-url: https://arxiv.org/abs/2410.21357
+    venue: conference
+    selected: yes
+    doc-url: https://arxiv.org/abs/2410.21357
+  - layout: paper
+    paper-type: inproceedings
+    year: 2024
+    title: "Think While You Generate: Discrete Diffusion with Planned Denoising"
+    authors: Sulin Liu, Juno Nam, Andrew Campbell, Hannes Stärk, <b>Yilun Xu</b>, Tommi Jaakkola, Rafael Gómez-Bombarelli
+    booktitle: "preprint, 2024"
+    pdf-url: https://arxiv.org/abs/2410.06264
+    venue: conference
+    selected: yes
+    doc-url: https://arxiv.org/abs/2410.06264
+  - layout: paper
+    paper-type: inproceedings
+    year: 2024
     title: "Hamiltonian Score Matching and Generative Flows"
     authors: Peter Holderrieth, <b>Yilun Xu</b>, Tommi Jaakkola
     booktitle: "Neural Information Processing Systems (NeurIPS), 2024. "
@@ -84,7 +125,8 @@ papers:
     selected: yes
     doc-url: https://arxiv.org/abs/2302.04265
     github: <a class="github-button" href="https://github.com/Newbeeer/pfgmpp" data-size="large" data-show-count="true" aria-label="Star Newbeeer/pfgmmpp on GitHub">Star</a>
-    pwc: <a href="https://paperswithcode.com/sota/image-generation-on-cifar-10?p=pfgm-unlocking-the-potential-of-physics"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pfgm-unlocking-the-potential-of-physics/image-generation-on-cifar-10" alt="PWC"></a>
+    pwc: <a href="https://paperswithcode.com/sota/image-generation-on-cifar-10?p=compensation-sampling-for-improved"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/compensation-sampling-for-improved/image-generation-on-cifar-10" alt="PWC"></a>
+    #pwc: <a href="https://paperswithcode.com/sota/image-generation-on-cifar-10?p=pfgm-unlocking-the-potential-of-physics"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pfgm-unlocking-the-potential-of-physics/image-generation-on-cifar-10" alt="PWC"></a>
     news: News coverage
     mitnews-url: https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927
     quanta-url: https://www.quantamagazine.org/new-physics-inspired-generative-ai-exceeds-expectations-20230919/
