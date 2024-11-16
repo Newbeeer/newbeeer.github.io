@@ -6,7 +6,6 @@
 # (unless you are using a custom domain).
 url: https://newbeeer.github.io/
 
-markdown: "GFM"
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
