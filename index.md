@@ -8,7 +8,7 @@ cover: false
 Hi, I am Yilun Xu, a research scientist in NVIDIA Research, [fundamental GenAI research](https://research.nvidia.com/labs/genair/) team.
 
 <div style="padding: 10px;">
-&#x1F4E2; &#128293; We are hiring research intern working on diffusion acceleration (e.g., one-step distillation)! Please considere reaching out to me if you are interested!
+&#x1F4E2; &#128293; We are hiring research intern working on diffusion acceleration (e.g., one-step distillation)! Please consider reaching out to me if you are interested!
 </div>
 
 
