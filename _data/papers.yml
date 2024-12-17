@@ -20,6 +20,7 @@ papers:
     venue: conference
     selected: yes
     doc-url: https://arxiv.org/abs/2410.14895
+    code-url: https://github.com/NVlabs/TCM
     project-page: https://truncated-cm.github.io
   - layout: paper
     paper-type: inproceedings
