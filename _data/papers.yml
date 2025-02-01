@@ -15,7 +15,7 @@ papers:
     year: 2024
     title: "Truncated Consistency Models"
     authors: Sangyun Lee, <b>Yilun Xu</b>, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie
-    booktitle: "preprint, 2024"
+    booktitle: "International Conference on Learning Representations (ICLR), 2025"
     pdf-url: https://arxiv.org/abs/2410.14895
     venue: conference
     selected: yes
@@ -27,7 +27,7 @@ papers:
     year: 2024
     title: "Heavy-Tailed Diffusion Models"
     authors: Kushagra Pandey, Jaideep Pathak, <b>Yilun Xu</b>, Stephan Mandt, Michael Pritchard, Arash Vahdat, Morteza Mardani
-    booktitle: "preprint, 2024"
+    booktitle: "International Conference on Learning Representations (ICLR), 2025"
     pdf-url: https://arxiv.org/abs/2410.14171
     venue: conference
     selected: yes
@@ -37,7 +37,7 @@ papers:
     year: 2024
     title: "Energy-Based Diffusion Language Models for Text Generation"
     authors: Minkai Xu, Tomas Geffner, Karsten Kreis, Weili Nie, <b>Yilun Xu</b>, Jure Leskovec, Stefano Ermon, Arash Vahdat
-    booktitle: "preprint, 2024"
+    booktitle: "International Conference on Learning Representations (ICLR), 2025"
     pdf-url: https://arxiv.org/abs/2410.21357
     venue: conference
     selected: yes
@@ -47,7 +47,7 @@ papers:
     year: 2024
     title: "Think While You Generate: Discrete Diffusion with Planned Denoising"
     authors: Sulin Liu, Juno Nam, Andrew Campbell, Hannes Stärk, <b>Yilun Xu</b>, Tommi Jaakkola, Rafael Gómez-Bombarelli
-    booktitle: "preprint, 2024"
+    booktitle: "International Conference on Learning Representations (ICLR), 2025"
     pdf-url: https://arxiv.org/abs/2410.06264
     venue: conference
     selected: yes
