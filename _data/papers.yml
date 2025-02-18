@@ -12,6 +12,14 @@ papers:
 #    doc-url:
   - layout: paper
     paper-type: inproceedings
+    year: 2025
+    title: "One-step Diffusion Models with f-Divergence Distribution Matching"
+    authors: <b>Yilun Xu</b>, Weili Nie, Arash Vahdat
+    booktitle: "preprint coming soon"
+    venue: conference
+    selected: yes
+  - layout: paper
+    paper-type: inproceedings
     year: 2024
     title: "Truncated Consistency Models"
     authors: Sangyun Lee, <b>Yilun Xu</b>, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie

@@ -14,7 +14,15 @@ Hi, I am Yilun Xu, a research scientist in NVIDIA Research, [fundamental GenAI r
 
 I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, Peking University. I had the privilege of working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) in PKU, and [Stefano Ermon](https://cs.stanford.edu/~ermon/) in Stanford. I also worked with [Karsten Kreis](https://karstenkreis.github.io) and [Arash Vahdat](http://latentspace.cc) in NVIDIA Research, during summer 2023. 
  
-My research interests are machine learning, with a current emphasis on generative modeling: (i) new family of generative models [13, 12, 10]; (ii) improving the training, sampling and controllability of generative models, e.g. PFGM and diffusion models [16, 15, 14, 11, 9, 5]. Previously, I worked on bridging machine learning and information theory [4, 3, 2, 1].
+My research interests are machine learning, with a current emphasis on deep generative modeling: 
+
+- (i) New models: PFGM [10], PFGM++ [13], HGF [18], t-EDM [21]
+- (ii) Training: STF [11], Disco-Diff [16], Style Control [9]
+- (iii) Sampling: Restart sampling [14], Particle Guidance [15], Anytime AR [5]
+- (iv) Discrete diffusion: DDPD [19], EDLM [20]
+- (v) Diffusion Distillation: TCM [22], f-distill [23]
+
+Previously, I worked on bridging machine learning and information theory [4, 3, 2, 1].
 
 
 
