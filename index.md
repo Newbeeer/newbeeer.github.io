@@ -16,11 +16,11 @@ I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.
  
 My research interests are machine learning, with a current emphasis on deep generative modeling: 
 
-- (i) New models: PFGM [10], PFGM++ [13], HGF [18], t-EDM [21]
-- (ii) Training: STF [11], Disco-Diff [16], Style Control [9]
-- (iii) Sampling: Restart sampling [14], Particle Guidance [15], Anytime AR [5]
-- (iv) Discrete diffusion: DDPD [19], EDLM [20]
-- (v) Diffusion Distillation: TCM [22], f-distill [23]
+- *(i) New models:* PFGM [10], PFGM++ [13], HGF [18], t-EDM [21]
+- *(ii) Training:* STF [11], Disco-Diff [16], Style Control [9]
+- *(iii) Sampling:* Restart sampling [14], Particle Guidance [15], Anytime AR [5]
+- *(iv) Discrete diffusion:* DDPD [19], EDLM [20]
+- *(v) Diffusion Distillation:* TCM [22], f-distill [23]
 
 Previously, I worked on bridging machine learning and information theory [4, 3, 2, 1].
 
