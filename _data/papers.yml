@@ -16,8 +16,11 @@ papers:
     title: "One-step Diffusion Models with f-Divergence Distribution Matching"
     authors: <b>Yilun Xu</b>, Weili Nie, Arash Vahdat
     booktitle: "preprint, coming soon"
+    doc-url: https://arxiv.org/abs/2502.15681
+    pdf-url: https://arxiv.org/abs/2502.15681
     venue: conference
     selected: yes
+    project-page: https://research.nvidia.com/labs/genair/f-distill/
   - layout: paper
     paper-type: inproceedings
     year: 2024
