@@ -13,6 +13,16 @@ papers:
   - layout: paper
     paper-type: inproceedings
     year: 2025
+    title: "COSMOS-NANO"
+    authors: NVIDIA et al.
+    booktitle: "preparation, coming soon. Featured in Jensen Huang's CES / GTC 2025 keynote."
+    doc-url:
+    pdf-url:
+    venue: conference
+    selected: yes
+  - layout: paper
+    paper-type: inproceedings
+    year: 2025
     title: "One-step Diffusion Models with f-Divergence Distribution Matching"
     authors: <b>Yilun Xu</b>, Weili Nie, Arash Vahdat
     booktitle: "preprint, coming soon"
