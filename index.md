@@ -149,20 +149,14 @@ I also have some works on bridging machine learning and information theory [4, 3
 
 # Service 
 
-Conference Reviewer: NeurIPS 2020, 2021, 2022, 2023; ICLR 2021, 2022, 2023, 2024; ICML 2021, 2022, 2023
+Conference Reviewer: NeurIPS 2020-2024; ICLR 2021-2025; ICML 2021-2024; CVPR 2025; ICCV 2025 
 
-Workshop Reviewer: ICML-AI4Science 2022
+PC member: ICLR 2022 PAIR2Struct, CVPR 2025 Visual Generative Modeling: What’s After Diffusion?
 
-Journal Reviewer: TMLR, TPAMI
-
-PC member: ICLR 2022 PAIR2Struct Workshop
-
-Panelist: ICML 2023 Workshop on Structured Probabilistic Inference & Generative Modeling
+Panelist: ICML 2023 Structured Probabilistic Inference & Generative Modeling
 
 Teaching Assistant for 6.S052/6.S952: Modeling with Machine learning for CS, MIT, Spring 2023 (*co-design the problem set and lectures for this new course, and receive an outstanding TA rating of **6.9 out of 7.0** from students*)
 
 # Miscellaneous
 
 I am a national second-class table tennis player in China. Men's single champion in PKU Freshman's Cup (2016). I also played for MIT table tennis team, winning the 3rd place (group) in the 2022 NCTTA Upper New England Championship. 
-
-I have been playing PUBG (mobile), LoL a lot. Find me out! 
