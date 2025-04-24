@@ -11,13 +11,11 @@ papers:
 #    selected: yes
 #    doc-url:
   - layout: paper
-    paper-type: inproceedings
+    paper-type: projects
     year: 2025
     title: "COSMOS-NANO"
     authors: NVIDIA et al
-    booktitle: "preparation, coming soon. Featured in Jensen Huang's CES / GTC 2025 keynote."
-    doc-url:
-    pdf-url:
+    booktitle: "Distilled version of COSMOS video foundation models. Featured in Jensen Huang's CES / GTC 2025 keynote."
     venue: conference
     selected: yes
   - layout: paper

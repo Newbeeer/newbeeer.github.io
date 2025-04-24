@@ -38,6 +38,9 @@
   {% when "dissertation" %}
     PhD Thesis &#x1F393;, {{ include.paper.institution }}.
     <br/> <a href="{{ include.paper.pdf-url }}" target="_blank">[PDF]</a>
+  {% when "projects" %}
+    <i>{{ include.paper.booktitle }}</i><br/>
+    {{ include.paper.institution }}.
 {% endcase %}
 <!--{{ include.paper.year }}. -->
 
