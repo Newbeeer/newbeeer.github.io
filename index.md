@@ -20,11 +20,11 @@ My current main research focus is deep generative modeling:
 - *(iv) Discrete diffusion:* DDPD [19], EDLM [20]
 - *(v) Diffusion Distillation:* TCM [22], f-distill [23]
 
-I have also some works on bridging machine learning and information theory [4, 3, 2, 1], such as V-information.
+I also have some works on bridging machine learning and information theory [4, 3, 2, 1], such as V-information.
 
 
 
-**Contact**: yilunx@nvidia.com, <s>ylxu@mit.edu</s> , <s>xuyilun@pku.edu.cn</s>
+**Contact**: <s>yilunx@nvidia.com</s>, <s>ylxu@mit.edu</s> , <s>xuyilun@pku.edu.cn</s>
 
 # Publications 
 (*) denotes equal contribution
