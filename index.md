@@ -78,19 +78,30 @@ I have also some works on bridging machine learning and information theory [4, 3
 </div>
 <br/>
 
-# Work Experience 
+[//]: # (# Work Experience )
 
-<div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
-    <img src="/assets/img/nvidia.png" alt="" width="182" height="150">
-  </div>
-  <div>
-    <h3>&nbsp;&nbsp;&nbsp;Jun. 2023 - May, 2024: NVIDIA </h3>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Intern </p>
-    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="https://karstenkreis.github.io">Karsten Kreis</a> and <a href="http://latentspace.cc">Arash Vahdat</a> </p>
-  </div>
-</div>
-<br/>
+[//]: # ()
+[//]: # (<div style="clear: both;">)
+
+[//]: # (  <div style="float: left; margin-right 1em;">)
+
+[//]: # (    <img src="/assets/img/nvidia.png" alt="" width="182" height="150">)
+
+[//]: # (  </div>)
+
+[//]: # (  <div>)
+
+[//]: # (    <h3>&nbsp;&nbsp;&nbsp;July 2024 - April 2025: NVIDIA </h3>)
+
+[//]: # (    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Scientist </p>)
+
+[//]: # (    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="https://karstenkreis.github.io">Karsten Kreis</a> and <a href="http://latentspace.cc">Arash Vahdat</a> </p>)
+
+[//]: # (  </div>)
+
+[//]: # (</div>)
+
+[//]: # (<br/>)
 
 # Talks
 
