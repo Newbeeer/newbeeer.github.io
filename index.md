@@ -95,7 +95,7 @@ I have also some works on bridging machine learning and information theory [4, 3
 
 [//]: # (    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Scientist </p>)
 
-[//]: # (    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advisor: <a href="https://karstenkreis.github.io">Karsten Kreis</a> and <a href="http://latentspace.cc">Arash Vahdat</a> </p>)
+[//]: # (    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects: <a href="https://karstenkreis.github.io">Karsten Kreis</a> and <a href="http://latentspace.cc">Arash Vahdat</a> </p>)
 
 [//]: # (  </div>)
 
