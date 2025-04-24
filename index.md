@@ -5,7 +5,7 @@ cover: false
 ---
 
 
-Hi, I'm Yilun Xu, an incoming research scientist Google DeepMind, working on generative models that simulate the world. 
+Hi, I'm Yilun Xu, an incoming research scientist at Google DeepMind, working on generative models that simulate the world. 
 Previously, I co-led the diffusion distillation efforts at NVIDIA.
 
 I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, 
