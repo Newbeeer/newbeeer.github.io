@@ -103,48 +103,74 @@ I also have some works on bridging machine learning and information theory [4, 3
 
 [//]: # (<br/>)
 
-# Talks
+[//]: # (# Talks)
 
-- *On Physics-Inspired Generative Models*
-  - **Peking University, hosted by Prof. [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm)**, June 2024 [[Video (CN)](https://www.bilibili.com/video/BV1e6421f7kY/?spm_id_from=333.337.search-card.all.click)], [[Slide](https://www.dropbox.com/scl/fi/qed49r04bejmhlws22j1j/phd_defense.pptx?rlkey=8kw9owov91qi49zjrr2ulimok&st=lfeaq85o&dl=0)]
-  
-  - **CUHK, hosted by Prof. [Pheng Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/)**, June 2024
+[//]: # ()
+[//]: # (- *On Physics-Inspired Generative Models*)
 
-- *Generative Models & Physical Processes*
-  - **UCLA, hosted by Prof. [Yingnian Wu](http://www.stat.ucla.edu/~ywu/me.html)**, Oct 2023 [[Slide]](https://www.dropbox.com/scl/fi/f91h30eevegprnjmu9dsa/talk.key?rlkey=g3owuav0sgfh910q38go2buk3&dl=0)
+[//]: # (  - **Peking University, hosted by Prof. [Yizhou Wang]&#40;http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm&#41;**, June 2024 [[Video &#40;CN&#41;]&#40;https://www.bilibili.com/video/BV1e6421f7kY/?spm_id_from=333.337.search-card.all.click&#41;], [[Slide]&#40;https://www.dropbox.com/scl/fi/qed49r04bejmhlws22j1j/phd_defense.pptx?rlkey=8kw9owov91qi49zjrr2ulimok&st=lfeaq85o&dl=0&#41;])
 
-- *Unlocking the Potential of Physics-Inspired Generative Models*
-  - **[Learning on Graphs and Geometry](https://m2d2.io/talks/logg/about/) seminar**. Oct, 2023 [[Video]](https://www.youtube.com/watch?v=VFXKMlcl7QA)
-  - **Zhejiang University, hosted by Prof. Chao Xu**, Oct 2023 
+[//]: # (  )
+[//]: # (  - **CUHK, hosted by Prof. [Pheng Ann Heng]&#40;https://www.cse.cuhk.edu.hk/~pheng/&#41;**, June 2024)
 
-  - **[Peking University, CFCS](https://cfcs.pku.edu.cn/english/)**, Aug 2023
+[//]: # ()
+[//]: # (- *Generative Models & Physical Processes*)
 
-  - **[NVIDIA Research](https://www.nvidia.com/en-us/research/)**, July 2023
+[//]: # (  - **UCLA, hosted by Prof. [Yingnian Wu]&#40;http://www.stat.ucla.edu/~ywu/me.html&#41;**, Oct 2023 [[Slide]]&#40;https://www.dropbox.com/scl/fi/f91h30eevegprnjmu9dsa/talk.key?rlkey=g3owuav0sgfh910q38go2buk3&dl=0&#41;)
 
-  - **ByteDance, AI for Science Team**, July 2023
+[//]: # ()
+[//]: # (- *Unlocking the Potential of Physics-Inspired Generative Models*)
 
-  - **[Swarma Club](https://swarma.org)**, May 2023, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)]  [[Video (CN)](https://www.bilibili.com/video/BV17g4y1V7wY/?spm_id_from=333.337.search-card.all.click)]
+[//]: # (  - **[Learning on Graphs and Geometry]&#40;https://m2d2.io/talks/logg/about/&#41; seminar**. Oct, 2023 [[Video]]&#40;https://www.youtube.com/watch?v=VFXKMlcl7QA&#41;)
 
-  - **[TechBeat/Jiangmen Ventures](https://www.techbeat.net)**, April 2023, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)] [[Video (CN)](https://www.bilibili.com/video/BV1HV4y167q1/?spm_id_from=333.337.search-card.all.click)]
+[//]: # (  - **Zhejiang University, hosted by Prof. Chao Xu**, Oct 2023 )
 
-  - **[MLTea Talk](https://mlxmit.mit.edu/ml-tea-talks)**, MIT, April 2023, [[Slide](https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0)]
-  - **Stanford University, hosted by Prof. [Mert Pilanci](https://web.stanford.edu/~pilanci/)**, Feb 2023, [[Slide](https://www.dropbox.com/scl/fi/6p0av7cak0yp59g0zt32z/Mert_group.pptx?dl=0&rlkey=ix5smfxcio8snzbck2odpod5q)]
+[//]: # ()
+[//]: # (  - **[Peking University, CFCS]&#40;https://cfcs.pku.edu.cn/english/&#41;**, Aug 2023)
 
-- *Conditional and Controllable Generation*  
-  - **Guest lecturer at [6.S052/6.S952](https://www.eecs.mit.edu/academics/subject-updates/subject-updates-spring-2023/): Modeling with Machine learning for CS, MIT**, April 2023, [[Slide](https://www.dropbox.com/s/5vgzmmkc59846uu/lecture9.key?dl=0)]
+[//]: # ()
+[//]: # (  - **[NVIDIA Research]&#40;https://www.nvidia.com/en-us/research/&#41;**, July 2023)
 
-- *Poisson Flow Generative Models*
-  - **[AssemblyAI](https://www.assemblyai.com) AI Hackathon**, Dec 2022, [[Slide](https://www.dropbox.com/scl/fi/kf4xei8mahx8uwuxdzxaj/assembly-ai.pptx?dl=0&rlkey=cjuuayvv672nk9t7vy1jgf8gc)]
+[//]: # ()
+[//]: # (  - **ByteDance, AI for Science Team**, July 2023)
 
-  - **Princeton University, hosted by Prof. [Mengdi Wang](https://mwang.princeton.edu)**, Nov 2022, [[Slide](https://www.dropbox.com/scl/fi/wn13m59v28ts5heolr0qv/mengdi_group.pptx?dl=0&rlkey=7sxw47b6i0jdvroisg586o92s)]
+[//]: # ()
+[//]: # (  - **[Swarma Club]&#40;https://swarma.org&#41;**, May 2023, [[Slide]&#40;https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0&#41;]  [[Video &#40;CN&#41;]&#40;https://www.bilibili.com/video/BV17g4y1V7wY/?spm_id_from=333.337.search-card.all.click&#41;])
 
-  - **[MIT NetMIT Group](http://groups.csail.mit.edu/netmit/wordpress/), hosted by Prof. [Dina Katabi](https://people.csail.mit.edu/dina/)**,
-  Nov 2022 
+[//]: # ()
+[//]: # (  - **[TechBeat/Jiangmen Ventures]&#40;https://www.techbeat.net&#41;**, April 2023, [[Slide]&#40;https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0&#41;] [[Video &#40;CN&#41;]&#40;https://www.bilibili.com/video/BV1HV4y167q1/?spm_id_from=333.337.search-card.all.click&#41;])
 
-- *Controlling Directions Orthogonal to a Classifier*,
-  - **[AI TIME](http://aitime.cn/)**, June 2022, [[Slide]](https://www.dropbox.com/scl/fi/txtz6pwr6xfarg3fetpzb/orthogonal_classifier_ai_times.pptx?dl=0&rlkey=n3p1nxeq8sso0jui9r3xraggh)
-- *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*
-  - **[AI TIME](http://aitime.cn/)**, June 2021, [[Slide](https://www.dropbox.com/scl/fi/m4ulvedtz2e7stnxgydcw/anytime_paper_aitimes.pptx?dl=0&rlkey=7ls7dfcgpq3s64rgkgxarvzld)]
+[//]: # ()
+[//]: # (  - **[MLTea Talk]&#40;https://mlxmit.mit.edu/ml-tea-talks&#41;**, MIT, April 2023, [[Slide]&#40;https://www.dropbox.com/s/0cgacob54vw7boe/jizhi_5_13_22.pptx?dl=0&#41;])
+
+[//]: # (  - **Stanford University, hosted by Prof. [Mert Pilanci]&#40;https://web.stanford.edu/~pilanci/&#41;**, Feb 2023, [[Slide]&#40;https://www.dropbox.com/scl/fi/6p0av7cak0yp59g0zt32z/Mert_group.pptx?dl=0&rlkey=ix5smfxcio8snzbck2odpod5q&#41;])
+
+[//]: # ()
+[//]: # (- *Conditional and Controllable Generation*  )
+
+[//]: # (  - **Guest lecturer at [6.S052/6.S952]&#40;https://www.eecs.mit.edu/academics/subject-updates/subject-updates-spring-2023/&#41;: Modeling with Machine learning for CS, MIT**, April 2023, [[Slide]&#40;https://www.dropbox.com/s/5vgzmmkc59846uu/lecture9.key?dl=0&#41;])
+
+[//]: # ()
+[//]: # (- *Poisson Flow Generative Models*)
+
+[//]: # (  - **[AssemblyAI]&#40;https://www.assemblyai.com&#41; AI Hackathon**, Dec 2022, [[Slide]&#40;https://www.dropbox.com/scl/fi/kf4xei8mahx8uwuxdzxaj/assembly-ai.pptx?dl=0&rlkey=cjuuayvv672nk9t7vy1jgf8gc&#41;])
+
+[//]: # ()
+[//]: # (  - **Princeton University, hosted by Prof. [Mengdi Wang]&#40;https://mwang.princeton.edu&#41;**, Nov 2022, [[Slide]&#40;https://www.dropbox.com/scl/fi/wn13m59v28ts5heolr0qv/mengdi_group.pptx?dl=0&rlkey=7sxw47b6i0jdvroisg586o92s&#41;])
+
+[//]: # ()
+[//]: # (  - **[MIT NetMIT Group]&#40;http://groups.csail.mit.edu/netmit/wordpress/&#41;, hosted by Prof. [Dina Katabi]&#40;https://people.csail.mit.edu/dina/&#41;**,)
+
+[//]: # (  Nov 2022 )
+
+[//]: # ()
+[//]: # (- *Controlling Directions Orthogonal to a Classifier*,)
+
+[//]: # (  - **[AI TIME]&#40;http://aitime.cn/&#41;**, June 2022, [[Slide]]&#40;https://www.dropbox.com/scl/fi/txtz6pwr6xfarg3fetpzb/orthogonal_classifier_ai_times.pptx?dl=0&rlkey=n3p1nxeq8sso0jui9r3xraggh&#41;)
+
+[//]: # (- *Anytime Sampling for Autoregressive Models via Ordered Autoencoding*)
+
+[//]: # (  - **[AI TIME]&#40;http://aitime.cn/&#41;**, June 2021, [[Slide]&#40;https://www.dropbox.com/scl/fi/m4ulvedtz2e7stnxgydcw/anytime_paper_aitimes.pptx?dl=0&rlkey=7ls7dfcgpq3s64rgkgxarvzld&#41;])
 
 
 # Service 
