@@ -24,7 +24,7 @@ I also have some works on bridging machine learning and information theory [4, 3
 
 
 
-**Contact**: ylxu@google.com, <s>yilunx@nvidia.com</s>, <s>ylxu@mit.edu</s> , <s>xuyilun@pku.edu.cn</s>
+**Contact**: ylxu@google.com
 
 # Publications 
 (*) denotes equal contribution
