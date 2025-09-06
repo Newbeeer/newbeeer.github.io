@@ -5,7 +5,7 @@ cover: false
 ---
 
 
-Hi, I'm Yilun Xu, a research scientist at Meta TBD lab. I was a research scientist Google DeepMind, working on the world's first world model &#127758; , particularly in the post-training and model acceleration. Previously, I co-led the diffusion distillation efforts at NVIDIA.
+Hi, I'm Yilun Xu, a research scientist at Meta TBD lab. I was a research scientist Google DeepMind, building the world's first world model &#127758; , particularly in the post-training and model acceleration. Previously, I co-led the diffusion distillation efforts at NVIDIA.
 
 I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, 
 Peking University, working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) (PKU), and [Stefano Ermon](https://cs.stanford.edu/~ermon/) (Stanford). 
