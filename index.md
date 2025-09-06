@@ -23,7 +23,7 @@ I also have some works on bridging machine learning and information theory [4, 3
 
 
 
-**Contact**: ylxu@google.com
+**Contact**: ylxu@meta.com
 
 # Publications 
 (*) denotes equal contribution
