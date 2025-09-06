@@ -9,7 +9,7 @@ Hi, I'm Yilun Xu, a research scientist at Meta TBD lab. I was a research scienti
 
 I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, 
 Peking University, working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) (PKU), and [Stefano Ermon](https://cs.stanford.edu/~ermon/) (Stanford). 
-During my GDM time, I worked with [Tim Brooks](https://www.timothybrooks.com/about/). During my NVIDIA time, I worked with [Weili Nie](https://weilinie.github.io), [Arash Vahdat](http://latentspace.cc) and [Ming-Yu Liu](https://mingyuliu.net). 
+During my GDM time, I worked with [Tim Brooks](https://www.timothybrooks.com/about/). During my NVIDIA time, I worked with [Arash Vahdat](http://latentspace.cc) and [Ming-Yu Liu](https://mingyuliu.net). 
  
 My PhD research focus is deep generative modeling: 
 
