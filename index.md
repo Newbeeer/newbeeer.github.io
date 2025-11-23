@@ -4,15 +4,13 @@ title: About me
 cover: false
 ---
 
-
-Hi, I'm Yilun Xu, an research scientist at Google DeepMind, working on generative models that simulate the world &#127758; and nano banana pro &#127820; . 
-Previously, I co-led the diffusion distillation efforts at NVIDIA.
+Hi, I'm Yilun Xu, a research scientist at Meta. I was a research scientist Google DeepMind, building the world's first world model &#127758; and nano banana pro &#127820; . Previously, I co-led the diffusion distillation efforts at NVIDIA.
 
 I received my PhD in MIT EECS, advised by [Tommi Jaakkola](https://people.csail.mit.edu/tommi/tommi.html). I obtained my Bachelor’s degree from Turing Class in EECS dept, 
 Peking University, working with [Yizhou Wang](http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm) (PKU), and [Stefano Ermon](https://cs.stanford.edu/~ermon/) (Stanford). 
-During my NVIDIA time, I worked with [Weili Nie](https://weilinie.github.io), [Arash Vahdat](http://latentspace.cc) and [Ming-Yu Liu](https://mingyuliu.net). 
+During my GDM time, I worked with [Tim Brooks](https://www.timothybrooks.com/about/). During my NVIDIA time, I worked with [Arash Vahdat](http://latentspace.cc) and [Ming-Yu Liu](https://mingyuliu.net). 
  
-My current main research focus is deep generative modeling: 
+My PhD research focus is deep generative modeling: 
 
 - *(i) New models:* PFGM [10], PFGM++ [13], HGF [18], t-EDM [21]
 - *(ii) Training:* STF [11], Disco-Diff [16], Style Control [9]
@@ -20,11 +18,11 @@ My current main research focus is deep generative modeling:
 - *(iv) Discrete diffusion:* DDPD [19], EDLM [20]
 - *(v) Diffusion Distillation:* TCM [22], f-distill [23]
 
-I also have some works on bridging machine learning and information theory [4, 3, 2, 1], such as V-information.
+I also have some works on bridging machine learning and information theory [4, 3, 2, 1], such as V-information, during my undergrad.
 
 
 
-**Contact**: ylxu@google.com
+**Contact**: ylxu@meta.com
 
 # Publications 
 (*) denotes equal contribution
