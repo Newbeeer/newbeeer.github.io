@@ -155,6 +155,18 @@
   }
   .model-more .arrow{transition:transform .18s ease}
   a.model-card:hover .model-more .arrow{transform:translateX(4px)}
+  .model-card .model-role{margin:18px 0 0; font-size:.88rem; color:var(--muted); line-height:1.55; font-style:italic}
+  .model-card--soon{
+    display:flex; align-items:center; justify-content:center; text-align:center;
+    border-style:dashed; box-shadow:none; background:var(--bg-soft);
+  }
+  .model-card--soon .soon-inner{padding:34px 22px}
+  .model-card--soon h3{margin:0 0 5px; font-size:1.1rem; color:var(--text); letter-spacing:-.01em}
+  .model-card--soon p{margin:0; font-size:.9rem; color:var(--muted)}
+  .model-role .lbl{
+    font-weight:700; color:var(--accent); font-size:.7rem; letter-spacing:.07em;
+    text-transform:uppercase; margin-right:8px; font-style:normal;
+  }
 
   /* ---------- research ---------- */
   .themes{display:grid; grid-template-columns:1fr 1fr; gap:14px}
@@ -204,7 +216,7 @@
   /* ---------- education ---------- */
   .edu{display:flex; gap:18px; align-items:flex-start; padding:16px 0; border-top:1px solid var(--border)}
   .edu:first-of-type{border-top:none}
-  .edu img{width:92px; height:92px; object-fit:contain; flex:none; border-radius:14px; background:#fff; padding:9px; border:1px solid var(--border)}
+  .edu img{width:92px; height:92px; object-fit:contain; flex:none}
   .edu-body h3{margin:0 0 2px; font-size:1.05rem}
   .edu-body .when{color:var(--faint); font-size:.85rem; font-weight:600; margin:0 0 4px}
   .edu-body p{margin:0; color:var(--muted); font-size:.93rem}
@@ -257,7 +269,7 @@
         <h1>Yilun Xu</h1>
         <p class="role">Research Scientist at <b>Meta</b> · TBD Lab</p>
         <div class="socials">
-          <a href="mailto:ylxu@meta.com">
+          <a href="mailto:aaronyilun.xu@gmail.com">
             <svg viewBox="0 0 24 24"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.5 7.8 5.7L19.8 6H4.2Zm15.8 1.4-7.4 5.4a1 1 0 0 1-1.2 0L4 7.9V18.5c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V7.9Z"/></svg>
             Email
           </a>
@@ -281,9 +293,10 @@
   <!-- ABOUT -->
   <section class="prose" style="padding-top:6px">
     <p class="lead">
-      I'm a Research Scientist at <b>Meta</b> (TBD Lab). Previously I was a Research Scientist on the
-      <b>Google&nbsp;DeepMind</b> Gemini team, where I helped build <b>Gemini&nbsp;Omni</b> 🌐 and
-      <b>Nano&nbsp;Banana&nbsp;Pro</b> 🍌. Before that, I co-led the diffusion-distillation efforts at <b>NVIDIA</b>.
+      I'm a Research Scientist at Meta (TBD Lab). Previously I was a Research Scientist on the
+      Google&nbsp;DeepMind Gemini team, building some awesome generative models
+      (Gemini&nbsp;Omni and Nano&nbsp;Banana&nbsp;Pro).
+      Before that, I co-led the diffusion-distillation efforts at NVIDIA.
     </p>
     <p>
       I received my PhD from MIT EECS, advised by
@@ -296,22 +309,28 @@
       <a href="http://latentspace.cc" target="_blank" rel="noopener">Arash Vahdat</a> and
       <a href="https://mingyuliu.net" target="_blank" rel="noopener">Ming-Yu Liu</a>.
     </p>
-    <p class="muted" style="font-size:.95rem">📫 <a href="mailto:ylxu@meta.com">ylxu@meta.com</a></p>
+    <p class="muted" style="font-size:.95rem">Email: <a href="mailto:aaronyilun.xu@gmail.com">aaronyilun.xu@gmail.com</a></p>
   </section>
 
   <!-- MODELS -->
   <section id="models">
     <div class="section-head">
-      <span class="kicker">Built</span>
       <h2>Models</h2>
     </div>
     <div class="models">
+      <div class="model-card model-card--soon">
+        <div class="soon-inner">
+          <h3>More coming soon</h3>
+          <p>New models &amp; releases on the way ✨</p>
+        </div>
+      </div>
       <a class="model-card" href="https://gemini.google/overview/video-generation/" target="_blank" rel="noopener" style="--grad:linear-gradient(135deg,#7c3aed 0%,#4f46e5 50%,#06b6d4 100%); --glow:#6366f1">
-        <div class="model-banner is-image"><video src="assets/img/omni.mp4" autoplay loop muted playsinline></video></div>
+        <div class="model-banner is-image"><video src="assets/img/omni.mp4" autoplay loop muted playsinline preload="auto"></video></div>
         <div class="model-card-body">
           <h3>Gemini Omni</h3>
           <span class="model-tag">Google DeepMind · Gemini</span>
-          <p>A natively multimodal foundation model that reasons jointly across text, images, and audio.</p>
+          <p>A natively multimodal foundation model that reasons jointly across text, image, video, and audio.</p>
+          <p class="model-role">(early) Core contributor in pre-training, post-training, and eval.</p>
           <span class="model-more">Read the announcement <span class="arrow">→</span></span>
         </div>
       </a>
@@ -320,7 +339,8 @@
         <div class="model-card-body">
           <h3>Nano Banana Pro</h3>
           <span class="model-tag">Google DeepMind · Gemini</span>
-          <p>State-of-the-art image generation and editing, delivering high-fidelity, controllable visuals.</p>
+          <p>State-of-the-art (at release time) image generation and editing, delivering high-fidelity, controllable visuals.</p>
+          <p class="model-role">Core contributor in the model acceleration stack.</p>
           <span class="model-more">Read the announcement <span class="arrow">→</span></span>
         </div>
       </a>
@@ -330,8 +350,7 @@
   <!-- RESEARCH -->
   <section id="research">
     <div class="section-head">
-      <span class="kicker">Focus</span>
-      <h2>Research</h2>
+      <h2>Research (in PhD)</h2>
     </div>
     <p class="lead" style="margin-top:-6px; margin-bottom:20px">
       My research centers on <b>deep generative modeling</b> — designing new model families, improving
@@ -368,8 +387,7 @@
   <!-- PUBLICATIONS -->
   <section id="publications">
     <div class="section-head">
-      <span class="kicker">Selected</span>
-      <h2>Publications</h2>
+      <h2>Publications (in PhD)</h2>
     </div>
     <p class="pub-note">(*) denotes equal contribution.</p>
 
@@ -696,7 +714,6 @@
   <!-- EDUCATION -->
   <section id="education">
     <div class="section-head">
-      <span class="kicker">Background</span>
       <h2>Education</h2>
     </div>
     <div class="edu">
@@ -729,19 +746,17 @@
   <!-- SERVICE -->
   <section id="service" class="prose">
     <div class="section-head">
-      <span class="kicker">Community</span>
       <h2>Service</h2>
     </div>
     <p><b>Conference Reviewer:</b> NeurIPS 2020–2024 · ICLR 2021–2025 · ICML 2021–2024 · CVPR 2025 · ICCV 2025</p>
     <p><b>PC Member:</b> ICLR 2022 PAIR2Struct · CVPR 2025 “Visual Generative Modeling: What's After Diffusion?”</p>
     <p><b>Panelist:</b> ICML 2023 Structured Probabilistic Inference &amp; Generative Modeling</p>
-    <p><b>Teaching Assistant</b> for 6.S052/6.S952: Modeling with Machine Learning for CS, MIT, Spring 2023 — co-designed the problem sets and lectures for this new course, and received an outstanding TA rating of <b>6.9 / 7.0</b>.</p>
+    <p><b>Teaching Assistant</b> for 6.S052/6.S952: Modeling with Machine Learning for CS, MIT, Spring 2023 — co-designed the problem sets and lectures for this new course.</p>
   </section>
 
   <!-- MISC -->
   <section id="misc" class="prose">
     <div class="section-head">
-      <span class="kicker">Off the clock</span>
       <h2>Miscellaneous</h2>
     </div>
     <p>I'm a national second-class table tennis player in China and the men's singles champion of the PKU Freshman's Cup (2016). I also played for the MIT table tennis team, taking 3rd place (group) at the 2022 NCTTA Upper New England Championship. 🏓</p>
@@ -752,7 +767,7 @@
 <footer>
   <div class="wrap">
     <span>© 2026 Yilun Xu</span>
-    <span><a href="mailto:ylxu@meta.com">ylxu@meta.com</a></span>
+    <span><a href="mailto:aaronyilun.xu@gmail.com">aaronyilun.xu@gmail.com</a></span>
   </div>
 </footer>
 
