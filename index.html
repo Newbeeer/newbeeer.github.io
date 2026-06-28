@@ -136,9 +136,9 @@
     transition:transform .25s ease;
   }
   a.model-card:hover .model-emoji{transform:scale(1.08) rotate(-3deg)}
-  .model-banner.is-image{height:auto; display:block}
-  .model-banner img{display:block; width:100%; height:280px; object-fit:cover; position:relative; z-index:1}
-  a.model-card:hover .model-banner img{transform:none}
+  .model-banner.is-image{height:auto; display:block; background:#0c1322}
+  .model-banner img{display:block; width:100%; height:auto; position:relative; z-index:1}
+  .model-banner video{display:block; width:100%; aspect-ratio:16/9; object-fit:cover; position:relative; z-index:1}
   .model-card-body{padding:20px 22px 22px}
   .model-card h3{margin:0 0 3px; font-size:1.2rem; letter-spacing:-.01em}
   .model-tag{
@@ -186,6 +186,7 @@
   .pub-authors{font-size:.92rem; color:var(--muted); margin:0 0 3px}
   .pub-authors b{color:var(--text); font-weight:600}
   .pub-venue{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 9px}
+  .pub-venue b{color:var(--text); font-weight:700}
   .award{
     font-style:normal; font-weight:600; color:#d6402a; font-size:.82rem;
   }
@@ -203,7 +204,7 @@
   /* ---------- education ---------- */
   .edu{display:flex; gap:18px; align-items:flex-start; padding:16px 0; border-top:1px solid var(--border)}
   .edu:first-of-type{border-top:none}
-  .edu img{width:62px; height:62px; object-fit:contain; flex:none; border-radius:12px; background:#fff; padding:6px; border:1px solid var(--border)}
+  .edu img{width:92px; height:92px; object-fit:contain; flex:none; border-radius:14px; background:#fff; padding:9px; border:1px solid var(--border)}
   .edu-body h3{margin:0 0 2px; font-size:1.05rem}
   .edu-body .when{color:var(--faint); font-size:.85rem; font-weight:600; margin:0 0 4px}
   .edu-body p{margin:0; color:var(--muted); font-size:.93rem}
@@ -306,7 +307,7 @@
     </div>
     <div class="models">
       <a class="model-card" href="https://gemini.google/overview/video-generation/" target="_blank" rel="noopener" style="--grad:linear-gradient(135deg,#7c3aed 0%,#4f46e5 50%,#06b6d4 100%); --glow:#6366f1">
-        <div class="model-banner is-image"><img src="assets/img/gemini-omni.jpg" alt="Gemini Omni generated video stills"></div>
+        <div class="model-banner is-image"><video src="assets/img/omni.mp4" autoplay loop muted playsinline></video></div>
         <div class="model-card-body">
           <h3>Gemini Omni</h3>
           <span class="model-tag">Google DeepMind · Gemini</span>
@@ -398,7 +399,7 @@
       <div class="pub-body">
         <p class="pub-title">Truncated Consistency Models</p>
         <p class="pub-authors">Sangyun Lee, <b>Yilun Xu</b>, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025</p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2025</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2410.14895" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/NVlabs/TCM" target="_blank" rel="noopener">Code</a>
@@ -412,7 +413,7 @@
       <div class="pub-body">
         <p class="pub-title">Heavy-Tailed Diffusion Models</p>
         <p class="pub-authors">Kushagra Pandey, Jaideep Pathak, <b>Yilun Xu</b>, Stephan Mandt, Michael Pritchard, Arash Vahdat, Morteza Mardani</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025</p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2025</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2410.14171" target="_blank" rel="noopener">Paper</a>
         </div>
@@ -424,7 +425,7 @@
       <div class="pub-body">
         <p class="pub-title">Energy-Based Diffusion Language Models for Text Generation</p>
         <p class="pub-authors">Minkai Xu, Tomas Geffner, Karsten Kreis, Weili Nie, <b>Yilun Xu</b>, Jure Leskovec, Stefano Ermon, Arash Vahdat</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025</p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2025</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2410.21357" target="_blank" rel="noopener">Paper</a>
         </div>
@@ -436,7 +437,7 @@
       <div class="pub-body">
         <p class="pub-title">Think While You Generate: Discrete Diffusion with Planned Denoising</p>
         <p class="pub-authors">Sulin Liu, Juno Nam, Andrew Campbell, Hannes Stärk, <b>Yilun Xu</b>, Tommi Jaakkola, Rafael Gómez-Bombarelli</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025</p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2025</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2410.06264" target="_blank" rel="noopener">Paper</a>
         </div>
@@ -448,7 +449,7 @@
       <div class="pub-body">
         <p class="pub-title">Hamiltonian Score Matching and Generative Flows</p>
         <p class="pub-authors">Peter Holderrieth, <b>Yilun Xu</b>, Tommi Jaakkola</p>
-        <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2024</p>
+        <p class="pub-venue">Neural Information Processing Systems (<b>NeurIPS</b>), 2024</p>
       </div>
     </div>
 
@@ -470,7 +471,7 @@
       <div class="pub-body">
         <p class="pub-title">DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents</p>
         <p class="pub-authors"><b>Yilun Xu</b>, Gabriele Corso, Tommi Jaakkola, Arash Vahdat, Karsten Kreis</p>
-        <p class="pub-venue">International Conference on Machine Learning (ICML), 2024</p>
+        <p class="pub-venue">International Conference on Machine Learning (<b>ICML</b>), 2024</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2407.03300" target="_blank" rel="noopener">Paper</a>
           <a href="https://research.nvidia.com/labs/lpr/disco-diff/" target="_blank" rel="noopener">Project</a>
@@ -483,7 +484,7 @@
       <div class="pub-body">
         <p class="pub-title">Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models</p>
         <p class="pub-authors">Gabriele Corso, <b>Yilun Xu</b>, Valentin De Bortoli, Regina Barzilay, Tommi Jaakkola</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2024; Deep Inverse &amp; Diffusion Workshops, NeurIPS 2023 <span class="award">(Oral)</span></p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2024; Deep Inverse &amp; Diffusion Workshops, <b>NeurIPS</b> 2023 <span class="award">(Oral)</span></p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2310.13102" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/gcorso/particle-guidance" target="_blank" rel="noopener">Code</a>
@@ -496,7 +497,7 @@
       <div class="pub-body">
         <p class="pub-title">Restart Sampling for Improving Generative Processes</p>
         <p class="pub-authors"><b>Yilun Xu*</b>, Mingyang Deng*, Xiang Cheng*, Yonglong Tian, Ziming Liu, Tommi Jaakkola</p>
-        <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2023</p>
+        <p class="pub-venue">Neural Information Processing Systems (<b>NeurIPS</b>), 2023</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2306.14878" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/diffusion_restart_sampling" target="_blank" rel="noopener">Code</a>
@@ -510,7 +511,7 @@
       <div class="pub-body">
         <p class="pub-title">PFGM++: Unlocking the Potential of Physics-Inspired Generative Models</p>
         <p class="pub-authors"><b>Yilun Xu</b>, Ziming Liu, Yonglong Tian, Shangyuan Tong, Max Tegmark, Tommi Jaakkola</p>
-        <p class="pub-venue">International Conference on Machine Learning (ICML), 2023</p>
+        <p class="pub-venue">International Conference on Machine Learning (<b>ICML</b>), 2023</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2302.04265" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/pfgmpp" target="_blank" rel="noopener">Code</a>
@@ -539,7 +540,7 @@
       <div class="pub-body">
         <p class="pub-title">Stable Target Field for Reduced Variance Score Estimation in Diffusion Models</p>
         <p class="pub-authors"><b>Yilun Xu*</b>, Shangyuan Tong*, Tommi Jaakkola</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2023</p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2023</p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2302.00670" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/stf" target="_blank" rel="noopener">Code</a>
@@ -555,7 +556,7 @@
       <div class="pub-body">
         <p class="pub-title">Poisson Flow Generative Models</p>
         <p class="pub-authors"><b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola</p>
-        <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2022 <span class="award">(Spotlight)</span></p>
+        <p class="pub-venue">Neural Information Processing Systems (<b>NeurIPS</b>), 2022 <span class="award">(Spotlight)</span></p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2209.11178" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/Poisson_flow" target="_blank" rel="noopener">Code</a>
@@ -572,7 +573,7 @@
       <div class="pub-body">
         <p class="pub-title">Controlling Directions Orthogonal to a Classifier</p>
         <p class="pub-authors"><b>Yilun Xu</b>, Hao He, Tianxiao Shen, Tommi Jaakkola</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2022 <span class="award">(Spotlight)</span></p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2022 <span class="award">(Spotlight)</span></p>
         <div class="pub-links">
           <a href="https://openreview.net/pdf?id=DIjCrlsu6Z" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/orthogonal_classifier" target="_blank" rel="noopener">Code</a>
@@ -587,7 +588,7 @@
       <div class="pub-body">
         <p class="pub-title">A Survey on Generative Diffusion Models</p>
         <p class="pub-authors">Hanqun Cao, Cheng Tan, Zhangyang Gao, <b>Yilun Xu</b>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li</p>
-        <p class="pub-venue">IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023</p>
+        <p class="pub-venue">IEEE Transactions on Knowledge and Data Engineering (<b>TKDE</b>), 2023</p>
         <div class="pub-links">
           <a href="https://arxiv.org/pdf/2209.02646.pdf" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model" target="_blank" rel="noopener">Code</a>
@@ -613,7 +614,7 @@
       <div class="pub-body">
         <p class="pub-title">Can Subnetwork Structure Be the Key to Out-of-Distribution Generalization?</p>
         <p class="pub-authors">Dinghuai Zhang, Kartik Ahuja, <b>Yilun Xu</b>, Yisen Wang, Aaron Courville</p>
-        <p class="pub-venue">International Conference on Machine Learning (ICML), 2021 <span class="award">(Long Talk)</span></p>
+        <p class="pub-venue">International Conference on Machine Learning (<b>ICML</b>), 2021 <span class="award">(Long Talk)</span></p>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2106.02890" target="_blank" rel="noopener">Paper</a>
         </div>
@@ -625,7 +626,7 @@
       <div class="pub-body">
         <p class="pub-title">Anytime Sampling for Autoregressive Models via Ordered Autoencoding</p>
         <p class="pub-authors"><b>Yilun Xu</b>, Yang Song, Sahaj Garg, Linyuan Gong, Rui Shu, Aditya Grover, Stefano Ermon</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2021</p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2021</p>
         <div class="pub-links">
           <a href="https://openreview.net/forum?id=TSRTzJnuEBS" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/Anytime-Auto-Regressive-Model" target="_blank" rel="noopener">Code</a>
@@ -640,7 +641,7 @@
       <div class="pub-body">
         <p class="pub-title">A Theory of Usable Information under Computational Constraints</p>
         <p class="pub-authors"><b>Yilun Xu</b>, Shengjia Zhao, Jiaming Song, Russell Stewart, Stefano Ermon</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2020 <span class="award">(Oral)</span></p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2020 <span class="award">(Oral)</span></p>
         <div class="pub-links">
           <a href="https://openreview.net/pdf?id=r1eBeyHFDH" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/V-information" target="_blank" rel="noopener">Code</a>
@@ -655,7 +656,7 @@
       <div class="pub-body">
         <p class="pub-title">TCGM: An Information-Theoretic Framework for Semi-Supervised Multi-Modality Learning</p>
         <p class="pub-authors">Xinwei Sun*, <b>Yilun Xu*</b>, Peng Cao, Yuqing Kong, Lingjing Hu, Shanghang Zhang, Yizhou Wang</p>
-        <p class="pub-venue">European Conference on Computer Vision (ECCV), 2020 <span class="award">(Oral)</span></p>
+        <p class="pub-venue">European Conference on Computer Vision (<b>ECCV</b>), 2020 <span class="award">(Oral)</span></p>
         <div class="pub-links">
           <a href="https://openreview.net/pdf?id=BJg9DoR9t7" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/Semi-supervised-Multi-Modalities-Learning" target="_blank" rel="noopener">Code</a>
@@ -668,7 +669,7 @@
       <div class="pub-body">
         <p class="pub-title">L<sub>DMI</sub>: A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise</p>
         <p class="pub-authors"><b>Yilun Xu*</b>, Peng Cao*, Yuqing Kong, Yizhou Wang</p>
-        <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2019</p>
+        <p class="pub-venue">Neural Information Processing Systems (<b>NeurIPS</b>), 2019</p>
         <div class="pub-links">
           <a href="https://neurips.cc/Conferences/2019/Schedule?showEvent=13738" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/L_DMI" target="_blank" rel="noopener">Code</a>
@@ -682,7 +683,7 @@
       <div class="pub-body">
         <p class="pub-title">Max-MIG: An Information-Theoretic Approach for Joint Learning from Crowds</p>
         <p class="pub-authors">Peng Cao*, <b>Yilun Xu*</b>, Yuqing Kong, Yizhou Wang</p>
-        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2019</p>
+        <p class="pub-venue">International Conference on Learning Representations (<b>ICLR</b>), 2019</p>
         <div class="pub-links">
           <a href="https://openreview.net/pdf?id=BJg9DoR9t7" target="_blank" rel="noopener">Paper</a>
           <a href="https://github.com/Newbeeer/Max-MIG" target="_blank" rel="noopener">Code</a>
