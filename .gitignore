@@ -6,3 +6,9 @@ _site
 .sass-cache/
 
 
+
+# Ruby / Jekyll build artifacts
+.bundle
+.bundle-home/
+.gems/
+vendor/

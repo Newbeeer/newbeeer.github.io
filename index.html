@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yilun Xu</title>
+<meta name="description" content="Yilun Xu — Research Scientist at Meta (TBD Lab). Generative modeling: diffusion, distillation, multimodal models.">
+<link rel="icon" href="assets/img/aaron_sq.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opt@0,6..72;1,6..72&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff;
+    --bg-soft:#f6f7f9;
+    --surface:#ffffff;
+    --text:#1b2330;
+    --muted:#5c6675;
+    --faint:#8b95a5;
+    --border:#e8eaef;
+    --accent:#4f46e5;
+    --accent-soft:#eef0fe;
+    --shadow:0 1px 2px rgba(16,24,40,.04), 0 8px 24px rgba(16,24,40,.06);
+    --shadow-lg:0 4px 12px rgba(16,24,40,.08), 0 24px 48px rgba(16,24,40,.10);
+    --radius:16px;
+    --maxw:880px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root[data-theme="auto"]{
+      --bg:#0e1320; --bg-soft:#121829; --surface:#161d2e; --text:#e7ebf2;
+      --muted:#a3adbd; --faint:#727d8f; --border:#26304353; --accent:#8b93ff;
+      --accent-soft:#1c2440; --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+      --shadow-lg:0 4px 12px rgba(0,0,0,.45), 0 24px 48px rgba(0,0,0,.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0e1320; --bg-soft:#121829; --surface:#161d2e; --text:#e7ebf2;
+    --muted:#a3adbd; --faint:#727d8f; --border:#263043; --accent:#8b93ff;
+    --accent-soft:#1c2440; --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+    --shadow-lg:0 4px 12px rgba(0,0,0,.45), 0 24px 48px rgba(0,0,0,.5);
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth; scroll-padding-top:80px}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    font-size:16.5px; line-height:1.7; -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:var(--accent); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 22px}
+
+  /* ---------- nav ---------- */
+  header.nav{
+    position:sticky; top:0; z-index:50;
+    background:color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter:saturate(180%) blur(12px);
+    -webkit-backdrop-filter:saturate(180%) blur(12px);
+    border-bottom:1px solid var(--border);
+  }
+  .nav-inner{max-width:var(--maxw); margin:0 auto; padding:12px 22px; display:flex; align-items:center; justify-content:space-between; gap:16px}
+  .nav-brand{font-weight:700; letter-spacing:-.01em; font-size:1.02rem}
+  .nav-links{display:flex; gap:6px; align-items:center; flex-wrap:wrap}
+  .nav-links a{
+    color:var(--muted); font-weight:500; font-size:.92rem;
+    padding:6px 11px; border-radius:9px;
+  }
+  .nav-links a:hover{color:var(--text); background:var(--bg-soft); text-decoration:none}
+  .theme-toggle{
+    cursor:pointer; border:1px solid var(--border); background:var(--surface);
+    color:var(--muted); width:36px; height:36px; border-radius:10px; font-size:1rem;
+    display:inline-flex; align-items:center; justify-content:center; line-height:1;
+  }
+  .theme-toggle:hover{color:var(--text); border-color:var(--accent)}
+
+  /* ---------- hero ---------- */
+  .hero{padding:64px 0 30px}
+  .hero-grid{display:flex; gap:34px; align-items:center; flex-wrap:wrap}
+  .avatar{
+    width:148px; height:148px; border-radius:24px; object-fit:cover; flex:none;
+    box-shadow:var(--shadow-lg); border:1px solid var(--border);
+  }
+  .hero h1{font-size:2.5rem; line-height:1.1; margin:0 0 6px; letter-spacing:-.025em; font-weight:800}
+  .hero .role{font-size:1.08rem; color:var(--muted); margin:0 0 16px; font-weight:500}
+  .hero .role b{color:var(--text); font-weight:600}
+  .socials{display:flex; gap:10px; flex-wrap:wrap}
+  .socials a{
+    display:inline-flex; align-items:center; gap:7px; font-size:.9rem; font-weight:500;
+    color:var(--text); background:var(--surface); border:1px solid var(--border);
+    padding:7px 13px; border-radius:999px; box-shadow:var(--shadow);
+  }
+  .socials a:hover{border-color:var(--accent); color:var(--accent); text-decoration:none; transform:translateY(-1px)}
+  .socials svg{width:16px; height:16px; fill:currentColor}
+
+  /* ---------- sections ---------- */
+  section{padding:30px 0; scroll-margin-top:72px}
+  .section-head{display:flex; align-items:baseline; gap:12px; margin:0 0 22px}
+  .section-head h2{
+    font-size:1.55rem; margin:0; letter-spacing:-.02em; font-weight:750; font-weight:700;
+  }
+  .section-head .kicker{
+    font-size:.74rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--accent);
+  }
+  .lead{font-size:1.05rem; color:var(--text)}
+  .lead a{font-weight:500}
+  .muted{color:var(--muted)}
+
+  /* ---------- models ---------- */
+  .models{display:grid; grid-template-columns:1fr; gap:18px}
+  .model-card{
+    position:relative; overflow:hidden; background:var(--surface);
+    border:1px solid var(--border); border-radius:var(--radius);
+    box-shadow:var(--shadow); transition:transform .18s ease, box-shadow .18s ease;
+  }
+  .model-card:hover{transform:translateY(-4px); box-shadow:var(--shadow-lg)}
+  .model-banner{
+    position:relative; height:138px; background:var(--grad); overflow:hidden;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .model-banner::before{
+    content:""; position:absolute; width:190px; height:190px; border-radius:50%;
+    top:-70px; left:-40px; filter:blur(2px);
+    background:radial-gradient(circle at 35% 35%, rgba(255,255,255,.6), transparent 62%);
+  }
+  .model-banner::after{
+    content:""; position:absolute; width:150px; height:150px; border-radius:50%;
+    bottom:-55px; right:-30px;
+    background:radial-gradient(circle, rgba(255,255,255,.3), transparent 66%);
+  }
+  .model-emoji{
+    position:relative; z-index:1; font-size:3.1rem; line-height:1;
+    filter:drop-shadow(0 8px 16px rgba(0,0,0,.28));
+    transition:transform .25s ease;
+  }
+  a.model-card:hover .model-emoji{transform:scale(1.08) rotate(-3deg)}
+  .model-banner.is-image{height:auto; display:block}
+  .model-banner img{display:block; width:100%; height:280px; object-fit:cover; position:relative; z-index:1}
+  a.model-card:hover .model-banner img{transform:none}
+  .model-card-body{padding:20px 22px 22px}
+  .model-card h3{margin:0 0 3px; font-size:1.2rem; letter-spacing:-.01em}
+  .model-tag{
+    display:inline-block; font-size:.72rem; font-weight:600; letter-spacing:.04em;
+    color:var(--muted); background:var(--bg-soft); border:1px solid var(--border);
+    padding:3px 9px; border-radius:999px; margin-bottom:12px;
+  }
+  .model-card p{margin:0; color:var(--muted); font-size:.95rem; line-height:1.6}
+  a.model-card{display:block; color:inherit; text-decoration:none}
+  a.model-card:hover{text-decoration:none}
+  .model-more{
+    display:inline-flex; align-items:center; gap:5px; margin-top:14px;
+    font-size:.85rem; font-weight:600; color:var(--accent);
+  }
+  .model-more .arrow{transition:transform .18s ease}
+  a.model-card:hover .model-more .arrow{transform:translateX(4px)}
+
+  /* ---------- research ---------- */
+  .themes{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+  .theme{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:16px 18px; box-shadow:var(--shadow);
+  }
+  .theme h4{margin:0 0 9px; font-size:.95rem; letter-spacing:.01em}
+  .theme h4 span{color:var(--accent)}
+  .chips{display:flex; flex-wrap:wrap; gap:7px}
+  .chip{
+    font-size:.82rem; font-weight:500; color:var(--text);
+    background:var(--bg-soft); border:1px solid var(--border);
+    padding:4px 10px; border-radius:8px;
+  }
+
+  /* ---------- publications ---------- */
+  .pub-note{color:var(--muted); font-size:.9rem; margin:-8px 0 20px}
+  .pub{
+    display:flex; gap:18px; padding:18px 0; border-top:1px solid var(--border);
+  }
+  .pub:first-of-type{border-top:none}
+  .pub-year{
+    flex:none; width:48px; font-variant-numeric:tabular-nums; font-weight:700;
+    color:var(--faint); font-size:.9rem; padding-top:2px;
+  }
+  .pub-body{flex:1; min-width:0}
+  .pub-title{font-size:1.02rem; font-weight:650; font-weight:600; margin:0 0 3px; letter-spacing:-.005em}
+  .pub-authors{font-size:.92rem; color:var(--muted); margin:0 0 3px}
+  .pub-authors b{color:var(--text); font-weight:600}
+  .pub-venue{font-size:.9rem; color:var(--muted); font-style:italic; margin:0 0 9px}
+  .award{
+    font-style:normal; font-weight:600; color:#d6402a; font-size:.82rem;
+  }
+  :root[data-theme="dark"] .award{color:#ff8a7a}
+  @media (prefers-color-scheme:dark){:root[data-theme="auto"] .award{color:#ff8a7a}}
+  .pub-links{display:flex; flex-wrap:wrap; gap:7px}
+  .pub-links a{
+    font-size:.8rem; font-weight:600; letter-spacing:.01em;
+    color:var(--muted); background:var(--bg-soft); border:1px solid var(--border);
+    padding:3px 10px; border-radius:7px;
+  }
+  .pub-links a:hover{color:var(--accent); border-color:var(--accent); text-decoration:none}
+  .pub-links a.news{color:var(--faint)}
+
+  /* ---------- education ---------- */
+  .edu{display:flex; gap:18px; align-items:flex-start; padding:16px 0; border-top:1px solid var(--border)}
+  .edu:first-of-type{border-top:none}
+  .edu img{width:62px; height:62px; object-fit:contain; flex:none; border-radius:12px; background:#fff; padding:6px; border:1px solid var(--border)}
+  .edu-body h3{margin:0 0 2px; font-size:1.05rem}
+  .edu-body .when{color:var(--faint); font-size:.85rem; font-weight:600; margin:0 0 4px}
+  .edu-body p{margin:0; color:var(--muted); font-size:.93rem}
+
+  /* ---------- generic prose ---------- */
+  .prose p{margin:0 0 12px}
+  .prose b{color:var(--text)}
+
+  /* ---------- footer ---------- */
+  footer{border-top:1px solid var(--border); padding:34px 0 60px; margin-top:24px; color:var(--muted); font-size:.9rem}
+  footer .wrap{display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:640px){
+    .hero{padding:40px 0 20px}
+    .hero-grid{gap:22px}
+    .hero h1{font-size:2rem}
+    .avatar{width:108px; height:108px; border-radius:20px}
+    .models,.themes{grid-template-columns:1fr}
+    .nav-links{display:none}
+    .pub{gap:12px}
+    .pub-year{width:38px; font-size:.82rem}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <span class="nav-brand">Yilun Xu</span>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#models">Models</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#service">Service</a>
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-grid">
+      <img class="avatar" src="assets/img/aaron_hq.png" alt="Yilun Xu">
+      <div>
+        <h1>Yilun Xu</h1>
+        <p class="role">Research Scientist at <b>Meta</b> · TBD Lab</p>
+        <div class="socials">
+          <a href="mailto:ylxu@meta.com">
+            <svg viewBox="0 0 24 24"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.5 7.8 5.7L19.8 6H4.2Zm15.8 1.4-7.4 5.4a1 1 0 0 1-1.2 0L4 7.9V18.5c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V7.9Z"/></svg>
+            Email
+          </a>
+          <a href="https://scholar.google.com/citations?user=MU6vjxQAAAAJ&hl=en" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3ZM5 13.2V17c0 1.7 3.1 3 7 3s7-1.3 7-3v-3.8l-7 3.8-7-3.8Z"/></svg>
+            Scholar
+          </a>
+          <a href="https://github.com/newbeeer" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M12 .5A11.5 11.5 0 0 0 .5 12 11.5 11.5 0 0 0 8.4 23c.6.1.8-.26.8-.57v-2c-3.2.7-3.9-1.55-3.9-1.55-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.68.81.57A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+            GitHub
+          </a>
+          <a href="https://twitter.com/xuyilun2" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M18.244 2H21.5l-7.5 8.57L23 22h-6.844l-5.36-7.012L4.66 22H1.4l8.02-9.166L1 2h7.02l4.844 6.41L18.244 2Zm-1.2 18h1.8L7.04 3.9H5.11L17.044 20Z"/></svg>
+            X / Twitter
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="prose" style="padding-top:6px">
+    <p class="lead">
+      I'm a Research Scientist at <b>Meta</b> (TBD Lab). Previously I was a Research Scientist on the
+      <b>Google&nbsp;DeepMind</b> Gemini team, where I helped build <b>Gemini&nbsp;Omni</b> 🌐 and
+      <b>Nano&nbsp;Banana&nbsp;Pro</b> 🍌. Before that, I co-led the diffusion-distillation efforts at <b>NVIDIA</b>.
+    </p>
+    <p>
+      I received my PhD from MIT EECS, advised by
+      <a href="https://people.csail.mit.edu/tommi/tommi.html" target="_blank" rel="noopener">Tommi Jaakkola</a>,
+      and my Bachelor's degree from the Turing Class in the EECS department at Peking University, working with
+      <a href="http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm" target="_blank" rel="noopener">Yizhou Wang</a> (PKU)
+      and <a href="https://cs.stanford.edu/~ermon/" target="_blank" rel="noopener">Stefano Ermon</a> (Stanford).
+      During my time at GDM I worked with
+      <a href="https://www.timothybrooks.com/about/" target="_blank" rel="noopener">Tim Brooks</a>; at NVIDIA I worked with
+      <a href="http://latentspace.cc" target="_blank" rel="noopener">Arash Vahdat</a> and
+      <a href="https://mingyuliu.net" target="_blank" rel="noopener">Ming-Yu Liu</a>.
+    </p>
+    <p class="muted" style="font-size:.95rem">📫 <a href="mailto:ylxu@meta.com">ylxu@meta.com</a></p>
+  </section>
+
+  <!-- MODELS -->
+  <section id="models">
+    <div class="section-head">
+      <span class="kicker">Built</span>
+      <h2>Models</h2>
+    </div>
+    <div class="models">
+      <a class="model-card" href="https://gemini.google/overview/video-generation/" target="_blank" rel="noopener" style="--grad:linear-gradient(135deg,#7c3aed 0%,#4f46e5 50%,#06b6d4 100%); --glow:#6366f1">
+        <div class="model-banner is-image"><img src="assets/img/gemini-omni.jpg" alt="Gemini Omni generated video stills"></div>
+        <div class="model-card-body">
+          <h3>Gemini Omni</h3>
+          <span class="model-tag">Google DeepMind · Gemini</span>
+          <p>A natively multimodal foundation model that reasons jointly across text, images, and audio.</p>
+          <span class="model-more">Read the announcement <span class="arrow">→</span></span>
+        </div>
+      </a>
+      <a class="model-card" href="https://blog.google/innovation-and-ai/products/nano-banana-pro/" target="_blank" rel="noopener" style="--grad:linear-gradient(135deg,#f59e0b 0%,#fbbf24 50%,#fde047 100%); --glow:#f59e0b">
+        <div class="model-banner is-image"><img src="assets/img/nano-banana-pro.jpg" alt="Nano Banana Pro sample output"></div>
+        <div class="model-card-body">
+          <h3>Nano Banana Pro</h3>
+          <span class="model-tag">Google DeepMind · Gemini</span>
+          <p>State-of-the-art image generation and editing, delivering high-fidelity, controllable visuals.</p>
+          <span class="model-more">Read the announcement <span class="arrow">→</span></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research">
+    <div class="section-head">
+      <span class="kicker">Focus</span>
+      <h2>Research</h2>
+    </div>
+    <p class="lead" style="margin-top:-6px; margin-bottom:20px">
+      My research centers on <b>deep generative modeling</b> — designing new model families, improving
+      training, accelerating sampling, and pushing discrete diffusion and distillation.
+    </p>
+    <div class="themes">
+      <div class="theme">
+        <h4><span>›</span> New models</h4>
+        <div class="chips"><span class="chip">PFGM</span><span class="chip">PFGM++</span><span class="chip">Hamiltonian Score Matching</span><span class="chip">t-EDM</span></div>
+      </div>
+      <div class="theme">
+        <h4><span>›</span> Training</h4>
+        <div class="chips"><span class="chip">Stable Target Field</span><span class="chip">DisCo-Diff</span><span class="chip">Style Control</span></div>
+      </div>
+      <div class="theme">
+        <h4><span>›</span> Sampling</h4>
+        <div class="chips"><span class="chip">Restart Sampling</span><span class="chip">Particle Guidance</span><span class="chip">Anytime AR</span></div>
+      </div>
+      <div class="theme">
+        <h4><span>›</span> Discrete diffusion</h4>
+        <div class="chips"><span class="chip">DDPD</span><span class="chip">EDLM</span></div>
+      </div>
+      <div class="theme">
+        <h4><span>›</span> Distillation</h4>
+        <div class="chips"><span class="chip">Truncated Consistency Models</span><span class="chip">f-distill</span></div>
+      </div>
+      <div class="theme">
+        <h4><span>›</span> ML &amp; information theory</h4>
+        <div class="chips"><span class="chip">V-information</span><span class="chip">Max-MIG</span><span class="chip">L_DMI</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="section-head">
+      <span class="kicker">Selected</span>
+      <h2>Publications</h2>
+    </div>
+    <p class="pub-note">(*) denotes equal contribution.</p>
+
+    <div class="pub">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <p class="pub-title">COSMOS-NANO</p>
+        <p class="pub-venue">Distilled version of the COSMOS video foundation models. Featured in Jensen Huang's CES / GTC 2025 keynote — NVIDIA.</p>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <p class="pub-title">One-step Diffusion Models with f-Divergence Distribution Matching</p>
+        <p class="pub-authors"><b>Yilun Xu</b>, Weili Nie, Arash Vahdat</p>
+        <p class="pub-venue">Preprint, 2025</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2502.15681" target="_blank" rel="noopener">Paper</a>
+          <a href="https://research.nvidia.com/labs/genair/f-distill/" target="_blank" rel="noopener">Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <p class="pub-title">Truncated Consistency Models</p>
+        <p class="pub-authors">Sangyun Lee, <b>Yilun Xu</b>, Tomas Geffner, Giulia Fanti, Karsten Kreis, Arash Vahdat, Weili Nie</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2410.14895" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/NVlabs/TCM" target="_blank" rel="noopener">Code</a>
+          <a href="https://truncated-cm.github.io" target="_blank" rel="noopener">Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <p class="pub-title">Heavy-Tailed Diffusion Models</p>
+        <p class="pub-authors">Kushagra Pandey, Jaideep Pathak, <b>Yilun Xu</b>, Stephan Mandt, Michael Pritchard, Arash Vahdat, Morteza Mardani</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2410.14171" target="_blank" rel="noopener">Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <p class="pub-title">Energy-Based Diffusion Language Models for Text Generation</p>
+        <p class="pub-authors">Minkai Xu, Tomas Geffner, Karsten Kreis, Weili Nie, <b>Yilun Xu</b>, Jure Leskovec, Stefano Ermon, Arash Vahdat</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2410.21357" target="_blank" rel="noopener">Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <p class="pub-title">Think While You Generate: Discrete Diffusion with Planned Denoising</p>
+        <p class="pub-authors">Sulin Liu, Juno Nam, Andrew Campbell, Hannes Stärk, <b>Yilun Xu</b>, Tommi Jaakkola, Rafael Gómez-Bombarelli</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2410.06264" target="_blank" rel="noopener">Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2024</div>
+      <div class="pub-body">
+        <p class="pub-title">Hamiltonian Score Matching and Generative Flows</p>
+        <p class="pub-authors">Peter Holderrieth, <b>Yilun Xu</b>, Tommi Jaakkola</p>
+        <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2024</p>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2024</div>
+      <div class="pub-body">
+        <p class="pub-title">On Physics-Inspired Generative Models</p>
+        <p class="pub-authors"><b>Yilun Xu</b></p>
+        <p class="pub-venue">PhD Thesis 🎓, Massachusetts Institute of Technology</p>
+        <div class="pub-links">
+          <a href="https://www.dropbox.com/scl/fi/56ve1kfxs69w1ns9ewszt/phd_thesis_yilun_xu.pdf?rlkey=rjk2vq33qxkj9rlv2v0wsdog3&e=1&dl=0" target="_blank" rel="noopener">Thesis</a>
+          <a href="https://www.dropbox.com/scl/fi/qed49r04bejmhlws22j1j/phd_defense.pptx?rlkey=8kw9owov91qi49zjrr2ulimok&st=lfeaq85o&dl=0" target="_blank" rel="noopener">Slides</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2024</div>
+      <div class="pub-body">
+        <p class="pub-title">DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents</p>
+        <p class="pub-authors"><b>Yilun Xu</b>, Gabriele Corso, Tommi Jaakkola, Arash Vahdat, Karsten Kreis</p>
+        <p class="pub-venue">International Conference on Machine Learning (ICML), 2024</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2407.03300" target="_blank" rel="noopener">Paper</a>
+          <a href="https://research.nvidia.com/labs/lpr/disco-diff/" target="_blank" rel="noopener">Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2024</div>
+      <div class="pub-body">
+        <p class="pub-title">Particle Guidance: non-I.I.D. Diverse Sampling with Diffusion Models</p>
+        <p class="pub-authors">Gabriele Corso, <b>Yilun Xu</b>, Valentin De Bortoli, Regina Barzilay, Tommi Jaakkola</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2024; Deep Inverse &amp; Diffusion Workshops, NeurIPS 2023 <span class="award">(Oral)</span></p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2310.13102" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/gcorso/particle-guidance" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2023</div>
+      <div class="pub-body">
+        <p class="pub-title">Restart Sampling for Improving Generative Processes</p>
+        <p class="pub-authors"><b>Yilun Xu*</b>, Mingyang Deng*, Xiang Cheng*, Yonglong Tian, Ziming Liu, Tommi Jaakkola</p>
+        <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2023</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2306.14878" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/diffusion_restart_sampling" target="_blank" rel="noopener">Code</a>
+          <a class="news" href="https://www.marktechpost.com/2023/06/29/mit-researchers-introduce-restart-sampling-for-improving-generative-processes/" target="_blank" rel="noopener">MarkTechPost</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2023</div>
+      <div class="pub-body">
+        <p class="pub-title">PFGM++: Unlocking the Potential of Physics-Inspired Generative Models</p>
+        <p class="pub-authors"><b>Yilun Xu</b>, Ziming Liu, Yonglong Tian, Shangyuan Tong, Max Tegmark, Tommi Jaakkola</p>
+        <p class="pub-venue">International Conference on Machine Learning (ICML), 2023</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2302.04265" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/pfgmpp" target="_blank" rel="noopener">Code</a>
+          <a class="news" href="https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927" target="_blank" rel="noopener">MIT News</a>
+          <a class="news" href="https://www.quantamagazine.org/new-physics-inspired-generative-ai-exceeds-expectations-20230919/" target="_blank" rel="noopener">Quanta</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2023</div>
+      <div class="pub-body">
+        <p class="pub-title">GenPhys: From Physical Processes to Generative Models</p>
+        <p class="pub-authors">Ziming Liu, Di Luo, <b>Yilun Xu</b>, Tommi Jaakkola, Max Tegmark</p>
+        <p class="pub-venue">Preprint, 2023</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2304.02637" target="_blank" rel="noopener">Paper</a>
+          <a class="news" href="https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927" target="_blank" rel="noopener">MIT News</a>
+          <a class="news" href="https://www.quantamagazine.org/new-physics-inspired-generative-ai-exceeds-expectations-20230919/" target="_blank" rel="noopener">Quanta</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2023</div>
+      <div class="pub-body">
+        <p class="pub-title">Stable Target Field for Reduced Variance Score Estimation in Diffusion Models</p>
+        <p class="pub-authors"><b>Yilun Xu*</b>, Shangyuan Tong*, Tommi Jaakkola</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2023</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2302.00670" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/stf" target="_blank" rel="noopener">Code</a>
+          <a href="https://www.dropbox.com/s/3iags01pf935voi/stf.key?dl=0" target="_blank" rel="noopener">Slides</a>
+          <a href="https://www.dropbox.com/s/wqccjvoml3qe7wz/stf_poster.pdf?dl=0" target="_blank" rel="noopener">Poster</a>
+          <a class="news" href="https://www.marktechpost.com/2023/02/04/a-new-ai-research-from-mit-reduces-variance-in-denoising-score-matching-improving-image-quality-stability-and-training-speed-in-diffusion-models/" target="_blank" rel="noopener">MarkTechPost</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2022</div>
+      <div class="pub-body">
+        <p class="pub-title">Poisson Flow Generative Models</p>
+        <p class="pub-authors"><b>Yilun Xu*</b>, Ziming Liu*, Max Tegmark, Tommi Jaakkola</p>
+        <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2022 <span class="award">(Spotlight)</span></p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2209.11178" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/Poisson_flow" target="_blank" rel="noopener">Code</a>
+          <a href="https://www.dropbox.com/scl/fi/la0jkj31ohynvepd3syyx/pfgm.pptx?dl=0&rlkey=3myamjcqb0aout9mp406j7iol" target="_blank" rel="noopener">Slides</a>
+          <a href="https://www.dropbox.com/s/bsor7rtl965fsns/PFGM_poster.png?dl=0" target="_blank" rel="noopener">Poster</a>
+          <a class="news" href="https://news.mit.edu/2023/physics-generative-ai-ai-model-advanced-pattern-generation-0927" target="_blank" rel="noopener">MIT News</a>
+          <a class="news" href="https://www.assemblyai.com/blog/an-introduction-to-poisson-flow-generative-models/" target="_blank" rel="noopener">AssemblyAI</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2022</div>
+      <div class="pub-body">
+        <p class="pub-title">Controlling Directions Orthogonal to a Classifier</p>
+        <p class="pub-authors"><b>Yilun Xu</b>, Hao He, Tianxiao Shen, Tommi Jaakkola</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2022 <span class="award">(Spotlight)</span></p>
+        <div class="pub-links">
+          <a href="https://openreview.net/pdf?id=DIjCrlsu6Z" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/orthogonal_classifier" target="_blank" rel="noopener">Code</a>
+          <a href="https://www.dropbox.com/scl/fi/moj373pkubkk0wfn631jz/orthogonal_classifier.pptx?dl=0&rlkey=8dhw1ohz3c5ugvbqbsh9fww8m" target="_blank" rel="noopener">Slides</a>
+          <a href="https://www.dropbox.com/s/pyexp6cdvzemy0e/orthogonal_poster.png?dl=0" target="_blank" rel="noopener">Poster</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2023</div>
+      <div class="pub-body">
+        <p class="pub-title">A Survey on Generative Diffusion Models</p>
+        <p class="pub-authors">Hanqun Cao, Cheng Tan, Zhangyang Gao, <b>Yilun Xu</b>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li</p>
+        <p class="pub-venue">IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2209.02646.pdf" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2022</div>
+      <div class="pub-body">
+        <p class="pub-title">Learning Representations that Support Robust Transfer of Predictors</p>
+        <p class="pub-authors"><b>Yilun Xu</b>, Tommi Jaakkola</p>
+        <p class="pub-venue">Preprint, 2022</p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2110.09940" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/TRM" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2021</div>
+      <div class="pub-body">
+        <p class="pub-title">Can Subnetwork Structure Be the Key to Out-of-Distribution Generalization?</p>
+        <p class="pub-authors">Dinghuai Zhang, Kartik Ahuja, <b>Yilun Xu</b>, Yisen Wang, Aaron Courville</p>
+        <p class="pub-venue">International Conference on Machine Learning (ICML), 2021 <span class="award">(Long Talk)</span></p>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2106.02890" target="_blank" rel="noopener">Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2021</div>
+      <div class="pub-body">
+        <p class="pub-title">Anytime Sampling for Autoregressive Models via Ordered Autoencoding</p>
+        <p class="pub-authors"><b>Yilun Xu</b>, Yang Song, Sahaj Garg, Linyuan Gong, Rui Shu, Aditya Grover, Stefano Ermon</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2021</p>
+        <div class="pub-links">
+          <a href="https://openreview.net/forum?id=TSRTzJnuEBS" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/Anytime-Auto-Regressive-Model" target="_blank" rel="noopener">Code</a>
+          <a href="https://www.dropbox.com/scl/fi/54d9y4h6pjrxrc5fs2ftf/anytime_paper.pptx?dl=0&rlkey=n1wkz5y47pwdzde2hbdwptatr" target="_blank" rel="noopener">Slides</a>
+          <a href="https://www.dropbox.com/s/igej3jhy56nb3qd/anytime_poster.pdf?dl=0" target="_blank" rel="noopener">Poster</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2020</div>
+      <div class="pub-body">
+        <p class="pub-title">A Theory of Usable Information under Computational Constraints</p>
+        <p class="pub-authors"><b>Yilun Xu</b>, Shengjia Zhao, Jiaming Song, Russell Stewart, Stefano Ermon</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2020 <span class="award">(Oral)</span></p>
+        <div class="pub-links">
+          <a href="https://openreview.net/pdf?id=r1eBeyHFDH" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/V-information" target="_blank" rel="noopener">Code</a>
+          <a href="https://www.dropbox.com/scl/fi/pzguksircdjmlgnqnrli1/v_information.pptx?dl=0&rlkey=utta8l9f7p37abfuqdjmwyf9o" target="_blank" rel="noopener">Slides</a>
+          <a href="https://papertalk.org/papertalks/4027" target="_blank" rel="noopener">Video</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2020</div>
+      <div class="pub-body">
+        <p class="pub-title">TCGM: An Information-Theoretic Framework for Semi-Supervised Multi-Modality Learning</p>
+        <p class="pub-authors">Xinwei Sun*, <b>Yilun Xu*</b>, Peng Cao, Yuqing Kong, Lingjing Hu, Shanghang Zhang, Yizhou Wang</p>
+        <p class="pub-venue">European Conference on Computer Vision (ECCV), 2020 <span class="award">(Oral)</span></p>
+        <div class="pub-links">
+          <a href="https://openreview.net/pdf?id=BJg9DoR9t7" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/Semi-supervised-Multi-Modalities-Learning" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2019</div>
+      <div class="pub-body">
+        <p class="pub-title">L<sub>DMI</sub>: A Novel Information-theoretic Loss Function for Training Deep Nets Robust to Label Noise</p>
+        <p class="pub-authors"><b>Yilun Xu*</b>, Peng Cao*, Yuqing Kong, Yizhou Wang</p>
+        <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2019</p>
+        <div class="pub-links">
+          <a href="https://neurips.cc/Conferences/2019/Schedule?showEvent=13738" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/L_DMI" target="_blank" rel="noopener">Code</a>
+          <a href="https://www.dropbox.com/s/3lvwp7kgv6nrkm9/DMI_Slides.pdf?dl=0" target="_blank" rel="noopener">Slides</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-year">2019</div>
+      <div class="pub-body">
+        <p class="pub-title">Max-MIG: An Information-Theoretic Approach for Joint Learning from Crowds</p>
+        <p class="pub-authors">Peng Cao*, <b>Yilun Xu*</b>, Yuqing Kong, Yizhou Wang</p>
+        <p class="pub-venue">International Conference on Learning Representations (ICLR), 2019</p>
+        <div class="pub-links">
+          <a href="https://openreview.net/pdf?id=BJg9DoR9t7" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/Newbeeer/Max-MIG" target="_blank" rel="noopener">Code</a>
+          <a href="https://www.dropbox.com/scl/fi/urg6ko7dfulbmz9rc5n9c/max_mig.pptx?dl=0&rlkey=55ktvcvnvvvgw3pv7oezr7r57" target="_blank" rel="noopener">Slides</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-head">
+      <span class="kicker">Background</span>
+      <h2>Education</h2>
+    </div>
+    <div class="edu">
+      <img src="assets/img/mit.png" alt="MIT">
+      <div class="edu-body">
+        <h3>Massachusetts Institute of Technology</h3>
+        <p class="when">Sep 2021 – May 2024</p>
+        <p>Ph.D. in Computer Science · Advisor: <a href="https://people.csail.mit.edu/tommi/tommi.html" target="_blank" rel="noopener">Tommi Jaakkola</a><br>
+        <span class="muted" style="font-size:.85rem">Remote during Sep 2020 – Aug 2021</span></p>
+      </div>
+    </div>
+    <div class="edu">
+      <img src="assets/img/pku.png" alt="Peking University">
+      <div class="edu-body">
+        <h3>Peking University</h3>
+        <p class="when">Sep 2016 – Jul 2020</p>
+        <p>B.S. in Turing Class, Computer Science (<i>summa cum laude</i>) · Advisor: <a href="http://cfcs.pku.edu.cn/faculty/adjunct/wangyizhou/index.htm" target="_blank" rel="noopener">Yizhou Wang</a></p>
+      </div>
+    </div>
+    <div class="edu">
+      <img src="assets/img/stanford.png" alt="Stanford University">
+      <div class="edu-body">
+        <h3>Stanford University</h3>
+        <p class="when">Jun 2019 – Sep 2019</p>
+        <p>Visiting Researcher · Advisor: <a href="https://cs.stanford.edu/~ermon/" target="_blank" rel="noopener">Stefano Ermon</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE -->
+  <section id="service" class="prose">
+    <div class="section-head">
+      <span class="kicker">Community</span>
+      <h2>Service</h2>
+    </div>
+    <p><b>Conference Reviewer:</b> NeurIPS 2020–2024 · ICLR 2021–2025 · ICML 2021–2024 · CVPR 2025 · ICCV 2025</p>
+    <p><b>PC Member:</b> ICLR 2022 PAIR2Struct · CVPR 2025 “Visual Generative Modeling: What's After Diffusion?”</p>
+    <p><b>Panelist:</b> ICML 2023 Structured Probabilistic Inference &amp; Generative Modeling</p>
+    <p><b>Teaching Assistant</b> for 6.S052/6.S952: Modeling with Machine Learning for CS, MIT, Spring 2023 — co-designed the problem sets and lectures for this new course, and received an outstanding TA rating of <b>6.9 / 7.0</b>.</p>
+  </section>
+
+  <!-- MISC -->
+  <section id="misc" class="prose">
+    <div class="section-head">
+      <span class="kicker">Off the clock</span>
+      <h2>Miscellaneous</h2>
+    </div>
+    <p>I'm a national second-class table tennis player in China and the men's singles champion of the PKU Freshman's Cup (2016). I also played for the MIT table tennis team, taking 3rd place (group) at the 2022 NCTTA Upper New England Championship. 🏓</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Yilun Xu</span>
+    <span><a href="mailto:ylxu@meta.com">ylxu@meta.com</a></span>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var root = document.documentElement;
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch(e){}
+    root.setAttribute('data-theme', saved || 'auto');
+    var btn = document.getElementById('themeToggle');
+    btn && btn.addEventListener('click', function(){
+      var cur = root.getAttribute('data-theme');
+      // cycle: auto -> light -> dark -> auto
+      var next = cur === 'auto' ? 'light' : (cur === 'light' ? 'dark' : 'auto');
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch(e){}
+    });
+  })();
+</script>
+
+</body>
+</html>
