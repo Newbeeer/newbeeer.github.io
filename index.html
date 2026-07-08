@@ -188,7 +188,19 @@
     font-size:.85rem; font-weight:600; color:var(--accent);
   }
   .model-more .arrow{transition:transform .18s ease}
-  a.model-card:hover .model-more .arrow{transform:translateX(4px)}
+  .model-card:hover .model-more .arrow{transform:translateX(4px)}
+  /* Stretched-link pattern: whole card opens the primary link, while nested links stay clickable */
+  .model-card-link{position:absolute; inset:0; z-index:1; font-size:0; overflow:hidden}
+  .model-card-link::after{content:""; position:absolute; inset:0}
+  .model-card-body .model-tryit{
+    position:relative; z-index:2; display:inline-flex; align-items:center; gap:7px;
+    margin-top:14px; padding:7px 13px; border-radius:999px;
+    font-size:.85rem; font-weight:600; color:var(--text); text-decoration:none;
+    background:var(--bg-soft); border:1px solid var(--border); transition:border-color .18s ease, background .18s ease;
+  }
+  .model-card-body .model-tryit:hover{border-color:var(--accent); background:var(--surface)}
+  .model-card-body .model-tryit svg,
+  .model-card-body .model-tryit img{width:17px; height:17px; display:block; flex:none}
   .model-card .model-role{margin:18px 0 0; font-size:.88rem; color:var(--muted); line-height:1.55; font-style:italic}
   .model-card--soon{
     display:flex; align-items:center; justify-content:center; text-align:center;
@@ -366,6 +378,22 @@
         <div class="soon-inner">
           <h3>More coming soon</h3>
           <p>New models &amp; releases on the way ✨</p>
+        </div>
+      </div>
+      <div class="model-card" style="--grad:linear-gradient(135deg,#0064e0 0%,#0082fb 50%,#00c6ff 100%); --glow:#0082fb">
+        <a class="model-card-link" href="https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=museimage" target="_blank" rel="noopener" aria-label="Muse Image / Video announcement">Muse Image / Video announcement</a>
+        <div class="model-banner is-image"><video src="assets/img/muse.mp4" autoplay loop muted playsinline preload="auto"></video></div>
+        <div class="model-card-body">
+          <h3>Muse Image / Video</h3>
+          <span class="model-tag">Meta · Superintelligence Lab</span>
+          <p>Foundational models for agentic image and video generation.</p>
+          <p class="model-role">Building the pre-training and post-training stack from scratch.</p>
+          <span class="model-more">Read the announcement <span class="arrow">→</span></span>
+          <br>
+          <a class="model-tryit" href="https://meta.ai/" target="_blank" rel="noopener">
+            <img src="assets/img/Meta_AI_Logo_(2026).svg" alt="Meta AI" width="17" height="17">
+            Try it on meta.ai
+          </a>
         </div>
       </div>
       <a class="model-card" href="https://gemini.google/overview/video-generation/" target="_blank" rel="noopener" style="--grad:linear-gradient(135deg,#7c3aed 0%,#4f46e5 50%,#06b6d4 100%); --glow:#6366f1">
